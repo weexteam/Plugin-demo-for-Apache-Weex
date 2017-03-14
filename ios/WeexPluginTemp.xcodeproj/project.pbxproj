@@ -7,158 +7,163 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C48E332D1E68099800C0ADAA /* WeexActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = C48E332B1E68099800C0ADAA /* WeexActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C48E33371E680AB200C0ADAA /* WXActionSheetModule.h in Headers */ = {isa = PBXBuildFile; fileRef = C48E33341E680AB200C0ADAA /* WXActionSheetModule.h */; };
-		C48E33381E680AB200C0ADAA /* WXActionSheetModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C48E33351E680AB200C0ADAA /* WXActionSheetModule.m */; };
-		D3F2C318BFE1465F07538EE9 /* libPods-WeexActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 135399A7926A3032405B3612 /* libPods-WeexActionSheet.a */; };
+		C4E952A61E77800300CFB5B7 /* WPTestComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E952A01E77800300CFB5B7 /* WPTestComponent.h */; };
+		C4E952A71E77800300CFB5B7 /* WPTestComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E952A11E77800300CFB5B7 /* WPTestComponent.m */; };
+		C4E952A81E77800300CFB5B7 /* WPTestModule.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E952A21E77800300CFB5B7 /* WPTestModule.h */; };
+		C4E952A91E77800300CFB5B7 /* WPTestModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E952A31E77800300CFB5B7 /* WPTestModule.m */; };
+		C4E952AE1E77807000CFB5B7 /* WPTestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E952AC1E77807000CFB5B7 /* WPTestHandler.h */; };
+		C4E952AF1E77807000CFB5B7 /* WPTestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E952AD1E77807000CFB5B7 /* WPTestHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		135399A7926A3032405B3612 /* libPods-WeexActionSheet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeexActionSheet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		53A8A8BEEA93AF4510C4EA51 /* Pods-WeexActionSheet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexActionSheet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeexActionSheet/Pods-WeexActionSheet.debug.xcconfig"; sourceTree = "<group>"; };
-		7EDCF6981DEE24C33E856D55 /* Pods-WeexActionSheet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexActionSheet.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeexActionSheet/Pods-WeexActionSheet.release.xcconfig"; sourceTree = "<group>"; };
-		C48E33281E68099800C0ADAA /* WeexActionSheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeexActionSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C48E332B1E68099800C0ADAA /* WeexActionSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeexActionSheet.h; sourceTree = "<group>"; };
-		C48E332C1E68099800C0ADAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C48E33341E680AB200C0ADAA /* WXActionSheetModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXActionSheetModule.h; sourceTree = "<group>"; };
-		C48E33351E680AB200C0ADAA /* WXActionSheetModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXActionSheetModule.m; sourceTree = "<group>"; };
+		3AD7CFA50915C33F8BA17426 /* Pods-WeexPluginTemp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexPluginTemp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeexPluginTemp/Pods-WeexPluginTemp.debug.xcconfig"; sourceTree = "<group>"; };
+		6B3424AEC52C9D6FCFF9718D /* Pods-WeexPluginTemp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexPluginTemp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeexPluginTemp/Pods-WeexPluginTemp.release.xcconfig"; sourceTree = "<group>"; };
+		C4E9528C1E777F1B00CFB5B7 /* WeexPluginTemp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeexPluginTemp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E952901E777F1B00CFB5B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E952A01E77800300CFB5B7 /* WPTestComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTestComponent.h; sourceTree = "<group>"; };
+		C4E952A11E77800300CFB5B7 /* WPTestComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTestComponent.m; sourceTree = "<group>"; };
+		C4E952A21E77800300CFB5B7 /* WPTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTestModule.h; sourceTree = "<group>"; };
+		C4E952A31E77800300CFB5B7 /* WPTestModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTestModule.m; sourceTree = "<group>"; };
+		C4E952AC1E77807000CFB5B7 /* WPTestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTestHandler.h; sourceTree = "<group>"; };
+		C4E952AD1E77807000CFB5B7 /* WPTestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTestHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C48E33241E68099800C0ADAA /* Frameworks */ = {
+		C4E952881E777F1B00CFB5B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3F2C318BFE1465F07538EE9 /* libPods-WeexActionSheet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27FF81CCD6812B1C6734B091 /* Frameworks */ = {
+		990DE4180A8D3202BE4C0966 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				135399A7926A3032405B3612 /* libPods-WeexActionSheet.a */,
+				3AD7CFA50915C33F8BA17426 /* Pods-WeexPluginTemp.debug.xcconfig */,
+				6B3424AEC52C9D6FCFF9718D /* Pods-WeexPluginTemp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFFDB60F9FDF2BE708806D7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C48E331E1E68099800C0ADAA = {
+		C4E952821E777F1B00CFB5B7 = {
 			isa = PBXGroup;
 			children = (
-				C48E33331E680AB200C0ADAA /* Sources */,
-				C48E332A1E68099800C0ADAA /* WeexActionSheet */,
-				C48E33291E68099800C0ADAA /* Products */,
-				D7557635A22904E6BB07F95D /* Pods */,
-				27FF81CCD6812B1C6734B091 /* Frameworks */,
+				C4E9529F1E77800300CFB5B7 /* Sources */,
+				C4E9528E1E777F1B00CFB5B7 /* WeexPluginTemp */,
+				C4E9528D1E777F1B00CFB5B7 /* Products */,
+				990DE4180A8D3202BE4C0966 /* Pods */,
+				BFFDB60F9FDF2BE708806D7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		C48E33291E68099800C0ADAA /* Products */ = {
+		C4E9528D1E777F1B00CFB5B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C48E33281E68099800C0ADAA /* WeexActionSheet.framework */,
+				C4E9528C1E777F1B00CFB5B7 /* WeexPluginTemp.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C48E332A1E68099800C0ADAA /* WeexActionSheet */ = {
+		C4E9528E1E777F1B00CFB5B7 /* WeexPluginTemp */ = {
 			isa = PBXGroup;
 			children = (
-				C48E332B1E68099800C0ADAA /* WeexActionSheet.h */,
-				C48E332C1E68099800C0ADAA /* Info.plist */,
+				C4E952901E777F1B00CFB5B7 /* Info.plist */,
 			);
-			path = WeexActionSheet;
+			path = WeexPluginTemp;
 			sourceTree = "<group>";
 		};
-		C48E33331E680AB200C0ADAA /* Sources */ = {
+		C4E9529F1E77800300CFB5B7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C48E33341E680AB200C0ADAA /* WXActionSheetModule.h */,
-				C48E33351E680AB200C0ADAA /* WXActionSheetModule.m */,
+				C4E952A01E77800300CFB5B7 /* WPTestComponent.h */,
+				C4E952A11E77800300CFB5B7 /* WPTestComponent.m */,
+				C4E952A21E77800300CFB5B7 /* WPTestModule.h */,
+				C4E952A31E77800300CFB5B7 /* WPTestModule.m */,
+				C4E952AC1E77807000CFB5B7 /* WPTestHandler.h */,
+				C4E952AD1E77807000CFB5B7 /* WPTestHandler.m */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		D7557635A22904E6BB07F95D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				53A8A8BEEA93AF4510C4EA51 /* Pods-WeexActionSheet.debug.xcconfig */,
-				7EDCF6981DEE24C33E856D55 /* Pods-WeexActionSheet.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C48E33251E68099800C0ADAA /* Headers */ = {
+		C4E952891E777F1B00CFB5B7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C48E332D1E68099800C0ADAA /* WeexActionSheet.h in Headers */,
-				C48E33371E680AB200C0ADAA /* WXActionSheetModule.h in Headers */,
+				C4E952A61E77800300CFB5B7 /* WPTestComponent.h in Headers */,
+				C4E952AE1E77807000CFB5B7 /* WPTestHandler.h in Headers */,
+				C4E952A81E77800300CFB5B7 /* WPTestModule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C48E33271E68099800C0ADAA /* WeexActionSheet */ = {
+		C4E9528B1E777F1B00CFB5B7 /* WeexPluginTemp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C48E33301E68099800C0ADAA /* Build configuration list for PBXNativeTarget "WeexActionSheet" */;
+			buildConfigurationList = C4E952941E777F1B00CFB5B7 /* Build configuration list for PBXNativeTarget "WeexPluginTemp" */;
 			buildPhases = (
-				5C8FDC161E6C16A55DA2FA09 /* [CP] Check Pods Manifest.lock */,
-				C48E33231E68099800C0ADAA /* Sources */,
-				C48E33241E68099800C0ADAA /* Frameworks */,
-				C48E33251E68099800C0ADAA /* Headers */,
-				C48E33261E68099800C0ADAA /* Resources */,
-				125657EEB7A6319BD59FA46C /* [CP] Copy Pods Resources */,
+				34C107F5D1CD062B761F7144 /* [CP] Check Pods Manifest.lock */,
+				C4E952871E777F1B00CFB5B7 /* Sources */,
+				C4E952881E777F1B00CFB5B7 /* Frameworks */,
+				C4E952891E777F1B00CFB5B7 /* Headers */,
+				C4E9528A1E777F1B00CFB5B7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WeexActionSheet;
-			productName = WeexActionSheet;
-			productReference = C48E33281E68099800C0ADAA /* WeexActionSheet.framework */;
+			name = WeexPluginTemp;
+			productName = WeexPluginTemp;
+			productReference = C4E9528C1E777F1B00CFB5B7 /* WeexPluginTemp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C48E331F1E68099800C0ADAA /* Project object */ = {
+		C4E952831E777F1B00CFB5B7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = taobao;
 				TargetAttributes = {
-					C48E33271E68099800C0ADAA = {
+					C4E9528B1E777F1B00CFB5B7 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = C48E33221E68099800C0ADAA /* Build configuration list for PBXProject "WeexActionSheet" */;
+			buildConfigurationList = C4E952861E777F1B00CFB5B7 /* Build configuration list for PBXProject "WeexPluginTemp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C48E331E1E68099800C0ADAA;
-			productRefGroup = C48E33291E68099800C0ADAA /* Products */;
+			mainGroup = C4E952821E777F1B00CFB5B7;
+			productRefGroup = C4E9528D1E777F1B00CFB5B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C48E33271E68099800C0ADAA /* WeexActionSheet */,
+				C4E9528B1E777F1B00CFB5B7 /* WeexPluginTemp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C48E33261E68099800C0ADAA /* Resources */ = {
+		C4E9528A1E777F1B00CFB5B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -168,22 +173,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		125657EEB7A6319BD59FA46C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeexActionSheet/Pods-WeexActionSheet-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5C8FDC161E6C16A55DA2FA09 /* [CP] Check Pods Manifest.lock */ = {
+		34C107F5D1CD062B761F7144 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -201,18 +191,20 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C48E33231E68099800C0ADAA /* Sources */ = {
+		C4E952871E777F1B00CFB5B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C48E33381E680AB200C0ADAA /* WXActionSheetModule.m in Sources */,
+				C4E952A91E77800300CFB5B7 /* WPTestModule.m in Sources */,
+				C4E952A71E77800300CFB5B7 /* WPTestComponent.m in Sources */,
+				C4E952AF1E77807000CFB5B7 /* WPTestHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C48E332E1E68099800C0ADAA /* Debug */ = {
+		C4E952921E777F1B00CFB5B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		C48E332F1E68099800C0ADAA /* Release */ = {
+		C4E952931E777F1B00CFB5B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,37 +300,39 @@
 			};
 			name = Release;
 		};
-		C48E33311E68099800C0ADAA /* Debug */ = {
+		C4E952951E777F1B00CFB5B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53A8A8BEEA93AF4510C4EA51 /* Pods-WeexActionSheet.debug.xcconfig */;
+			baseConfigurationReference = 3AD7CFA50915C33F8BA17426 /* Pods-WeexPluginTemp.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = WeexActionSheet/Info.plist;
+				INFOPLIST_FILE = WeexPluginTemp/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.WeexActionSheet;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.WeexPluginTemp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		C48E33321E68099800C0ADAA /* Release */ = {
+		C4E952961E777F1B00CFB5B7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EDCF6981DEE24C33E856D55 /* Pods-WeexActionSheet.release.xcconfig */;
+			baseConfigurationReference = 6B3424AEC52C9D6FCFF9718D /* Pods-WeexPluginTemp.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = WeexActionSheet/Info.plist;
+				INFOPLIST_FILE = WeexPluginTemp/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.WeexActionSheet;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.WeexPluginTemp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -347,25 +341,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C48E33221E68099800C0ADAA /* Build configuration list for PBXProject "WeexActionSheet" */ = {
+		C4E952861E777F1B00CFB5B7 /* Build configuration list for PBXProject "WeexPluginTemp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C48E332E1E68099800C0ADAA /* Debug */,
-				C48E332F1E68099800C0ADAA /* Release */,
+				C4E952921E777F1B00CFB5B7 /* Debug */,
+				C4E952931E777F1B00CFB5B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C48E33301E68099800C0ADAA /* Build configuration list for PBXNativeTarget "WeexActionSheet" */ = {
+		C4E952941E777F1B00CFB5B7 /* Build configuration list for PBXNativeTarget "WeexPluginTemp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C48E33311E68099800C0ADAA /* Debug */,
-				C48E33321E68099800C0ADAA /* Release */,
+				C4E952951E777F1B00CFB5B7 /* Debug */,
+				C4E952961E777F1B00CFB5B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C48E331F1E68099800C0ADAA /* Project object */;
+	rootObject = C4E952831E777F1B00CFB5B7 /* Project object */;
 }

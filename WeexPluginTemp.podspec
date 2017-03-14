@@ -1,15 +1,15 @@
 # coding: utf-8
 
 Pod::Spec.new do |s|
-  s.name         = "WeexActionSheet"
+  s.name         = "WeexPluginTemp"
   s.version      = "0.0.5"
-  s.summary      = "Weex Action Sheet"
+  s.summary      = "Weex Plugin Temp"
 
   s.description  = <<-DESC
                    Weexplugin Source Description
                    DESC
 
-  s.homepage     = "https://github.com/kfeagle/weex-action-sheet.git"
+  s.homepage     = "https://github.com/weexteam/weex-plugin-template"
   s.license = {
     :type => 'Copyright',
     :text => <<-LICENSE
@@ -22,8 +22,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "7.0"
 
-  s.source       = { :git => 'https://github.com/kfeagle/weex-action-sheet.git', :tag => '0.0.5' }
+  #s.source       = { :git => 'https://github.com/kfeagle/weex-action-sheet.git', :tag => '0.0.5' }
   #s.source       = { :git => 'https://github.com/kfeagle/weex-action-sheet.git' }
+  s.source =  { :path => '.' }
   s.source_files  = "ios/Sources/**/*.{h,m,mm}"
   
   s.requires_arc = true

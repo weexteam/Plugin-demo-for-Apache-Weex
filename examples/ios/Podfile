@@ -1,4 +1,4 @@
-source 'git@github.com/CocoaPods/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '7.0'
 #inhibit_all_warnings!
 
@@ -8,13 +8,12 @@ def common
     pod 'SDWebImage', '3.7.5'
     pod 'SocketRocket', '0.4.2'
     pod 'ATSDK-Weex', '0.0.1'
-    pod 'WeexActionSheet', :path=>'../../'
+    pod 'WeexPluginTemp', :path=>'../../'
+    pod 'WeexPlugin', :git => 'https://github.com/kfeagle/WeexPlugin.git'
+#    pod 'WeexPlugin'
 end
 
-target 'WeexActionSheetDemo' do
+target 'WeexDemo' do
     common
 end
 
-target 'WeexUITestDemo' do
-    common
-end
