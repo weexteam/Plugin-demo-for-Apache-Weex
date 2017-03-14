@@ -1,6 +1,12 @@
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+ios/*.xcworkspace
+ios/Pods/
+ios/podfile.lock
+examples/ios/*.xcworkspace
+examples/ios/Pods/
+examples/ios/podfile.lock
 
 ## Build generated
 build/
