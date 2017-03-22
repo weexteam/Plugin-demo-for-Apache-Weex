@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e03a391a-6376-452a-b242-ebf7e68890f6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/zq.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WeexPluginTemp.podspec" afterPath="$PROJECT_DIR$/generators/app/templates/ProjectName.podspec" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/.gitignore" afterPath="$PROJECT_DIR$/generators/app/templates/android/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/.idea/compiler.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/.idea/compiler.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/.idea/copyright/profiles_settings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/.idea/encodings.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/.idea/encodings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/.idea/gradle.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/.idea/markdown-navigator/profiles_settings.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/.idea/markdown-navigator/profiles_settings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/.idea/misc.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/.idea/modules.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/.idea/runConfigurations.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/.idea/vcs.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/.gitignore" afterPath="$PROJECT_DIR$/generators/app/templates/android/library/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/build.gradle" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/build.gradle" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/proguard-rules.pro" afterPath="$PROJECT_DIR$/generators/app/templates/android/library/proguard-rules.pro" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/src/androidTest/java/com/taobao/weex/demo/ExampleInstrumentedTest.java" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/src/androidTest/java/com/taobao/weex/demo/ExampleInstrumentedTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/src/main/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/src/main/java/com/taobao/weex/demo/MainActivity.java" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/src/main/java/com/taobao/weex/demo/MainActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/src/main/res/layout/activity_main.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/src/main/res/values-w820dp/dimens.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/src/main/res/values-w820dp/dimens.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/src/main/res/values/colors.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/src/main/res/values/dimens.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/library/src/main/res/values/strings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/src/main/res/values/styles.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/app/src/test/java/com/taobao/weex/demo/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/generators/app/templates/android/library/src/test/java/com/taobao/weex/demo/ExampleUnitTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/build.gradle" afterPath="$PROJECT_DIR$/generators/app/templates/android/build.gradle" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/gradle.properties" afterPath="$PROJECT_DIR$/generators/app/templates/android/gradle.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/generators/app/templates/android/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/generators/app/templates/android/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/gradlew" afterPath="$PROJECT_DIR$/generators/app/templates/android/gradlew" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/gradlew.bat" afterPath="$PROJECT_DIR$/generators/app/templates/android/gradlew.bat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/library/.gitignore" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/library/build.gradle" afterPath="$PROJECT_DIR$/generators/app/templates/android/library/build.gradle" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/library/proguard-rules.pro" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/proguard-rules.pro" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/library/src/androidTest/java/com/taobao/weex/demo/ExampleInstrumentedTest.java" afterPath="$PROJECT_DIR$/generators/app/templates/android/library/src/androidTest/java/com/taobao/weex/demo/ExampleInstrumentedTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/library/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/library/src/main/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/library/src/main/java/com/taobao/weex/actionsheet/WXActionSheet.java" afterPath="$PROJECT_DIR$/generators/app/templates/android/library/src/main/java/com/taobao/weex/actionsheet/WXActionSheet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/library/src/main/java/com/taobao/weex/actionsheet/WXActionSheetModule.java" afterPath="$PROJECT_DIR$/generators/app/templates/android/library/src/main/java/com/taobao/weex/actionsheet/WXActionSheetModule.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/library/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/src/main/res/values/strings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/library/src/test/java/com/taobao/weex/demo/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/generators/app/templates/android/app/src/test/java/com/taobao/weex/demo/ExampleUnitTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/android/settings.gradle" afterPath="$PROJECT_DIR$/generators/app/templates/android/settings.gradle" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/doc/index.md" afterPath="$PROJECT_DIR$/generators/app/templates/doc/index.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/android/android_demo_todo" afterPath="$PROJECT_DIR$/generators/app/templates/examples/android/android_demo_todo" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/index.we" afterPath="$PROJECT_DIR$/generators/app/templates/examples/index.we" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/Podfile" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/Podfile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/README.md" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo.xcodeproj/project.pbxproj" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/AppDelegate.h" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/AppDelegate.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/AppDelegate.m" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/AppDelegate.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-29.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-29.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-29@2x-1.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-29@2x-1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-29@2x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-29@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-29@3x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-29@3x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-40.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-40.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-40@2x-1.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-40@2x-1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-40@2x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-40@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-40@3x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-40@3x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-60@2x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-60@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-60@3x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-60@3x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-76.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-76.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-76@2x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-76@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-83.5@2x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-83.5@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/Contents.json" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/Contents.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Contents.json" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Contents.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default-4.7@2x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default-4.7@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x-1.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x-1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default@2x-1.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default@2x-1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default@2x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default@3x-1.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default@3x-1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default@3x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default@3x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/back.imageset/Contents.json" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/back.imageset/Contents.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/back.imageset/back.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/back.imageset/back.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/back.imageset/back@2x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/back.imageset/back@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/back.imageset/back@3x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/back.imageset/back@3x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/reload.imageset/Contents.json" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/reload.imageset/Contents.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/reload.imageset/reload.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/reload.imageset/reload.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/reload.imageset/reload@2x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/reload.imageset/reload@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/reload.imageset/reload@3x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/reload.imageset/reload@3x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/scan.imageset/Contents.json" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/scan.imageset/Contents.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/scan.imageset/scan.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/scan.imageset/scan.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/scan.imageset/scan@2x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/scan.imageset/scan@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Assets.xcassets/scan.imageset/scan@3x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Assets.xcassets/scan.imageset/scan@3x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/DemoBaseViewController.h" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/DemoBaseViewController.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/DemoBaseViewController.m" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/DemoBaseViewController.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/DemoDefine.h" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/DemoDefine.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Images.xcassets/Brand Assets.launchimage/Contents.json" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Images.xcassets/Brand Assets.launchimage/Contents.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Info.plist" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Info.plist" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Scanner/WXScannerVC.h" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Scanner/WXScannerVC.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/Scanner/WXScannerVC.m" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/Scanner/WXScannerVC.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/UIView+UIThreadCheck.h" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/UIView+UIThreadCheck.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/UIView+UIThreadCheck.m" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/UIView+UIThreadCheck.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/UIViewController+WXDemoNaviBar.h" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/UIViewController+WXDemoNaviBar.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/UIViewController+WXDemoNaviBar.m" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/UIViewController+WXDemoNaviBar.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/WXDemoViewController.h" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/WXDemoViewController.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/WXDemoViewController.m" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/WXDemoViewController.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/WXSyncTestModule.h" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/WXSyncTestModule.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/WXSyncTestModule.m" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/WXSyncTestModule.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/debug/WXATLoggerPlugin.h" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/debug/WXATLoggerPlugin.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/debug/WXATLoggerPlugin.m" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/debug/WXATLoggerPlugin.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/debug/WXATViewHierarchyPlugin.h" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/debug/WXATViewHierarchyPlugin.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/debug/WXATViewHierarchyPlugin.m" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/debug/WXATViewHierarchyPlugin.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/extend/component/WXSelectComponent.h" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/extend/component/WXSelectComponent.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/extend/component/WXSelectComponent.m" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/extend/component/WXSelectComponent.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/extend/handler/WXImgLoaderDefaultImpl.h" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/extend/handler/WXImgLoaderDefaultImpl.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/extend/handler/WXImgLoaderDefaultImpl.m" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/extend/handler/WXImgLoaderDefaultImpl.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/extend/module/WXEventModule.h" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/extend/module/WXEventModule.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/extend/module/WXEventModule.m" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/extend/module/WXEventModule.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/main.m" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/main.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemo/weex-icon.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemo/weex-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemoTests/Info.plist" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemoTests/Info.plist" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexDemoTests/WeexDemoTests.m" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexDemoTests/WeexDemoTests.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexUITestDemo-Info.plist" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexUITestDemo-Info.plist" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexUITestDemoUITests/Info.plist" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexUITestDemoUITests/Info.plist" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/WeexUITestDemoUITests/WeexUITestDemoUITests.m" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/WeexUITestDemoUITests/WeexUITestDemoUITests.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/actionsheet.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/actionsheet.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/animation.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/animation.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/a-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/a-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/countdown-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/countdown-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/image-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/image-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/input-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/input-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/list/list-basic.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/list/list-basic.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/list/list-demo-horizon.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/list/list-demo-horizon.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/list/list-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/list/list-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/marquee-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/marquee-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/navigator-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/navigator-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/process-bar-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/process-bar-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/scroller-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/scroller-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/slider-neighbor/index.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/slider-neighbor/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/slider-neighbor/slider-neighbor-item.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/slider-neighbor/slider-neighbor-item.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/slider-neighbor/slider-neighbor-page.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/slider-neighbor/slider-neighbor-page.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/slider/index.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/slider/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/slider/slider-item.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/slider/slider-item.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/slider/slider-page.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/slider/slider-page.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/tabbar/tabbar-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/tabbar/tabbar-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/tabbar/tabbar-item.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/tabbar/tabbar-item.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/text-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/text-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/video-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/video-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/component/web-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/web-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/error.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/error.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/geolocation.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/geolocation.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/hello.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/hello.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/iconfont.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/iconfont.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/index.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/linear-gradient.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/linear-gradient.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/module/clipboard.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/module/clipboard.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/module/componentRect.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/module/componentRect.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/module/instance-api.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/module/instance-api.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/module/modal.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/module/modal.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/module/picker-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/module/picker-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/module/storage-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/module/storage-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/module/stream-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/module/stream-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/module/websocket-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/module/websocket-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/calculator.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/calculator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/dropdown/dropdown-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/dropdown/dropdown-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/dropdown/we-dropdown.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/dropdown/we-dropdown.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/minesweeper.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/minesweeper.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/banner.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/banner.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/banners.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/banners.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/brand.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/brand.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/category.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/category.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/coupon.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/coupon.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/fashion.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/fashion.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/goods.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/goods.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/headlines.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/headlines.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/image-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/image-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/index.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/link.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/link.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/list/list-basic.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/list/list-basic.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/list/list-demo-horizon.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/list/list-demo-horizon.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/list/list-demo.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/component/list/list-demo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/main.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/match.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/match.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/resource.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/resource.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/new-fashion/scene.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/new-fashion/scene.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/pseudo-class.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/pseudo-class.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/showcase/ui.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/showcase/ui.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/style/index.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/style/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/style/style-box.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/style/style-box.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/style/style-flex.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/style/style-flex.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/style/style-item.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/style/style-item.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/hello-world-1.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/hello-world-1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/hello-world-2.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/hello-world-2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/hello-world-3.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/hello-world-3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/hello-world-4.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/hello-world-4.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/hello-world-5.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/hello-world-5.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/hello-world.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/hello-world.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/index.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/script-component.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/script-component.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/script-data.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/script-data.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/script-events.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/script-events.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/script-instance.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/script-instance.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/script-lifecycle.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/script-lifecycle.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/script-module.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/script-module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/script-options.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/script-options.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/template-class.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/template-class.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/template-content.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/template-content.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/template-event.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/template-event.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/template-if.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/template-if.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/template-repeat-update.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/template-repeat-update.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/template-repeat.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/template-repeat.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/syntax/template-style.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/syntax/template-style.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/template.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/template.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/test.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/animation.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/animation.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/components/a.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/components/a.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/components/countdown.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/components/countdown.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/components/image.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/components/image.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/components/input.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/components/input.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/components/list.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/components/list.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/components/marquee.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/components/marquee.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/components/navigator.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/components/navigator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/components/scroller.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/components/scroller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/components/slider.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/components/slider.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/components/tabbar.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/components/tabbar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/components/text.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/components/text.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/components/video.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/components/video.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/components/web.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/components/web.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/hello.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/hello.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/iconfont.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/iconfont.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/index.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/modules/clipboard.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/modules/clipboard.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/modules/instance-api.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/modules/instance-api.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/modules/modal.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/modules/modal.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/modules/storage.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/modules/storage.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/modules/stream.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/modules/stream.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/showcase/calculator.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/showcase/calculator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/showcase/itemlist.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/showcase/itemlist.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/showcase/new-fashion.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/showcase/new-fashion.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/showcase/progress.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/showcase/progress.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/style/index.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/style/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/style/style-box.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/style/style-box.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/style/style-flex.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/style/style-flex.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/style/style-item.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/style/style-item.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/hello-world-1.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/hello-world-1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/hello-world-2.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/hello-world-2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/hello-world-3.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/hello-world-3.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/hello-world-4.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/hello-world-4.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/hello-world-5.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/hello-world-5.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/hello-world.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/hello-world.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/script-component.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/script-component.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/script-data.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/script-data.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/script-events.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/script-events.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/script-instance.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/script-instance.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/script-lifecycle.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/script-lifecycle.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/script-module.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/script-module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/script-options.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/script-options.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/template-class.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/template-class.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/template-content.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/template-content.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/template-event.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/template-event.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/template-if.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/template-if.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/template-repeat-update.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/template-repeat-update.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/template-repeat.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/template-repeat.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/syntax/template-style.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/syntax/template-style.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/bundlejs/vue/template.js" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/bundlejs/vue/template.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/weex.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/weex.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/ios/weex@2x.png" afterPath="$PROJECT_DIR$/generators/app/templates/examples/ios/weex@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/.gitignore" afterPath="$PROJECT_DIR$/generators/app/templates/ios/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/Podfile" afterPath="$PROJECT_DIR$/generators/app/templates/ios/Podfile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/Sources/WPTestComponent.h" afterPath="$PROJECT_DIR$/generators/app/templates/ios/Sources/WPTestComponent.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/Sources/WPTestComponent.m" afterPath="$PROJECT_DIR$/generators/app/templates/ios/Sources/WPTestComponent.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/Sources/WPTestHandler.h" afterPath="$PROJECT_DIR$/generators/app/templates/ios/Sources/WPTestHandler.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/Sources/WPTestHandler.m" afterPath="$PROJECT_DIR$/generators/app/templates/ios/Sources/WPTestHandler.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/Sources/WPTestModule.h" afterPath="$PROJECT_DIR$/generators/app/templates/ios/Sources/WPTestModule.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/Sources/WPTestModule.m" afterPath="$PROJECT_DIR$/generators/app/templates/ios/Sources/WPTestModule.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/WeexPluginTemp.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/generators/app/templates/ios/WeexPluginTemp.xcodeproj/project.pbxproj" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/WeexPluginTemp/Info.plist" afterPath="$PROJECT_DIR$/generators/app/templates/ios/WeexPluginTemp/Info.plist" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/generators/app/templates/js/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/src/index.js" afterPath="$PROJECT_DIR$/generators/app/templates/js/src/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/src/lib/meta.js" afterPath="$PROJECT_DIR$/generators/app/templates/js/src/lib/meta.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/src/lib/vendor.js" afterPath="$PROJECT_DIR$/generators/app/templates/js/src/lib/vendor.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/src/vue/action-sheet.vue" afterPath="$PROJECT_DIR$/generators/app/templates/js/src/vue/action-sheet.vue" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/src/we/action-sheet.js" afterPath="$PROJECT_DIR$/generators/app/templates/js/src/we/action-sheet.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/src/we/style.css" afterPath="$PROJECT_DIR$/generators/app/templates/js/src/we/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/start" afterPath="$PROJECT_DIR$/generators/app/templates/start" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    </list>
+    <ignored path="generator-weex-plugin.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="generator-weex-plugin" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="345">
+                <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="810" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator-weex-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator-weex-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator-weex-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e03a391a-6376-452a-b242-ebf7e68890f6" name="Default" comment="" />
+      <created>1490169613545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490169613545</updated>
+      <workItem from="1490169614831" duration="102000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="102000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="345">
+            <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
