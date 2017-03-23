@@ -25,7 +25,6 @@ module.exports = Generator.extend({
   },
 
   writing: function () {
-      this.log("writing")
       var tp = this.templatePath();
       var files = glob.sync(tp + '/**', {nodir: true});
       files.forEach(function (file) {
