@@ -1,12 +1,12 @@
 {
   "name": "generator-weex-plugin",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "",
   "homepage": "",
   "files": [
     "generators"
   ],
-  "main": "generators/index.js",
+  "main": "generators/app/index.js",
   "keywords": [
     "",
     "yeoman-generator"
