@@ -17,9 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0F1C92092FF9562A4B475501 /* Pods-<%= ExportProjectName %>.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-<%= ExportProjectName %>.debug.xcconfig"; path = "Pods/Target Support Files/Pods-<%= ExportProjectName %>/Pods-<%= ExportProjectName %>.debug.xcconfig"; sourceTree = "<group>"; };
-		87F9AEB97654FF7EEA032F16 /* Pods-<%= ExportProjectName %>.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-<%= ExportProjectName %>.release.xcconfig"; path = "Pods/Target Support Files/Pods-<%= ExportProjectName %>/Pods-<%= ExportProjectName %>.release.xcconfig"; sourceTree = "<group>"; };
-		C45843E41E84EF5B00D88C0B /* <%= ExportProjectName %>.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = <%= ExportProjectName %>.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1C92092FF9562A4B475501 /* Pods-<%= iOSProjectName %>.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-<%= iOSProjectName %>.debug.xcconfig"; path = "Pods/Target Support Files/Pods-<%= iOSProjectName %>/Pods-<%= iOSProjectName %>.debug.xcconfig"; sourceTree = "<group>"; };
+		87F9AEB97654FF7EEA032F16 /* Pods-<%= iOSProjectName %>.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-<%= iOSProjectName %>.release.xcconfig"; path = "Pods/Target Support Files/Pods-<%= iOSProjectName %>/Pods-<%= iOSProjectName %>.release.xcconfig"; sourceTree = "<group>"; };
+		C45843E41E84EF5B00D88C0B /* <%= iOSProjectName %>.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = <%= iOSProjectName %>.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45843EF1E84EF7B00D88C0B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C45843F21E84F39100D88C0B /* WPTestComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTestComponent.h; sourceTree = "<group>"; };
 		C45843F31E84F39100D88C0B /* WPTestComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTestComponent.m; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		C45843E51E84EF5B00D88C0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C45843E41E84EF5B00D88C0B /* <%= ExportProjectName %>.framework */,
+				C45843E41E84EF5B00D88C0B /* <%= iOSProjectName %>.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,8 +82,8 @@
 		DCA0321F3AC057FF2A8C84CB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0F1C92092FF9562A4B475501 /* Pods-<%= ExportProjectName %>.debug.xcconfig */,
-				87F9AEB97654FF7EEA032F16 /* Pods-<%= ExportProjectName %>.release.xcconfig */,
+				0F1C92092FF9562A4B475501 /* Pods-<%= iOSProjectName %>.debug.xcconfig */,
+				87F9AEB97654FF7EEA032F16 /* Pods-<%= iOSProjectName %>.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -104,9 +104,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C45843E31E84EF5B00D88C0B /* <%= ExportProjectName %> */ = {
+		C45843E31E84EF5B00D88C0B /* <%= iOSProjectName %> */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C45843EC1E84EF5C00D88C0B /* Build configuration list for PBXNativeTarget "<%= ExportProjectName %>" */;
+			buildConfigurationList = C45843EC1E84EF5C00D88C0B /* Build configuration list for PBXNativeTarget "<%= iOSProjectName %>" */;
 			buildPhases = (
 				632ACA55BC2204B1168D1E27 /* [CP] Check Pods Manifest.lock */,
 				C45843DF1E84EF5B00D88C0B /* Sources */,
@@ -118,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = <%= ExportProjectName %>;
-			productName = <%= ExportProjectName %>;
-			productReference = C45843E41E84EF5B00D88C0B /* <%= ExportProjectName %>.framework */;
+			name = <%= iOSProjectName %>;
+			productName = <%= iOSProjectName %>;
+			productReference = C45843E41E84EF5B00D88C0B /* <%= iOSProjectName %>.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C45843DE1E84EF5B00D88C0B /* Build configuration list for PBXProject "<%= ExportProjectName %>" */;
+			buildConfigurationList = C45843DE1E84EF5B00D88C0B /* Build configuration list for PBXProject "<%= iOSProjectName %>" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -150,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C45843E31E84EF5B00D88C0B /* <%= ExportProjectName %> */,
+				C45843E31E84EF5B00D88C0B /* <%= iOSProjectName %> */,
 			);
 		};
 /* End PBXProject section */
@@ -296,7 +296,7 @@
 		};
 		C45843ED1E84EF5C00D88C0B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F1C92092FF9562A4B475501 /* Pods-<%= ExportProjectName %>.debug.xcconfig */;
+			baseConfigurationReference = 0F1C92092FF9562A4B475501 /* Pods-<%= iOSProjectName %>.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -308,7 +308,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = com.weexplugin.<%= ExportProjectName %>;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weexplugin.<%= iOSProjectName %>;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -316,7 +316,7 @@
 		};
 		C45843EE1E84EF5C00D88C0B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87F9AEB97654FF7EEA032F16 /* Pods-<%= ExportProjectName %>.release.xcconfig */;
+			baseConfigurationReference = 87F9AEB97654FF7EEA032F16 /* Pods-<%= iOSProjectName %>.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -328,7 +328,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = com.weexplugin.<%= ExportProjectName %>;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weexplugin.<%= iOSProjectName %>;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -337,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C45843DE1E84EF5B00D88C0B /* Build configuration list for PBXProject "<%= ExportProjectName %>" */ = {
+		C45843DE1E84EF5B00D88C0B /* Build configuration list for PBXProject "<%= iOSProjectName %>" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C45843EA1E84EF5C00D88C0B /* Debug */,
@@ -346,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C45843EC1E84EF5C00D88C0B /* Build configuration list for PBXNativeTarget "<%= ExportProjectName %>" */ = {
+		C45843EC1E84EF5C00D88C0B /* Build configuration list for PBXNativeTarget "<%= iOSProjectName %>" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C45843ED1E84EF5C00D88C0B /* Debug */,
