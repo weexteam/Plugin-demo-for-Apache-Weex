@@ -4,11 +4,10 @@ platform :ios, '7.0'
 
 def common
 	pod 'WeexSDK'
-	#pod 'WeexPlugin'
 	pod 'WeexPlugin', :git => 'https://github.com/kfeagle/WeexPlugin.git'
 end
 
-target 'WeexPluginTemp' do
+target '<%= ExportProjectName %>' do
     common
 end
 

@@ -15,7 +15,7 @@ module.exports = Generator.extend({
       type: 'input',
       name: 'projectName',
       message: 'Project',
-      default: 'MyProject'
+      default: 'weex-plugin-dev'
     },];
 
     return this.prompt(prompts).then(function (props) {
@@ -30,14 +30,14 @@ module.exports = Generator.extend({
       files.forEach(function (file) {
         if(!/\.(png|jpg|gif|jar)/.test(file)){
 
-          var ProjectName = this.props.projectName.replace(/\-(\w)/g, function(all, letter){
+          var ExportProjectName = this.props.projectName.replace(/\-(\w)/g, function(all, letter){
             return letter.toUpperCase();
           });
 
-          this.props.ProjectName = ProjectName.charAt(0).toUpperCase() + ProjectName.slice(1);
+          this.props.ExportProjectName = ExportProjectName.charAt(0).toUpperCase() + ExportProjectName.slice(1);
 
           var source = file.slice(tp.length + 1);
-          var destination = this.props.projectName + '/' + source.replace(/ProjectName/g, this.props.ProjectName);
+          var destination = this.props.projectName + '/' + source.replace(/ExportProjectName/g, this.props.ExportProjectName);
 
           this.fs.copyTpl(
               tp + '/' + source,

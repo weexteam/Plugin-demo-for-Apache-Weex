@@ -1,15 +1,15 @@
 # coding: utf-8
 
 Pod::Spec.new do |s|
-  s.name         = "<%= ProjectName %>"
+  s.name         = "<%= ExportProjectName %>"
   s.version      = "0.0.5"
-  s.summary      = "Weex Plugin Temp"
+  s.summary      = "Weex Plugin"
 
   s.description  = <<-DESC
                    Weexplugin Source Description
                    DESC
 
-  s.homepage     = "https://github.com/weexteam/weex-plugin-template"
+  s.homepage     = "https://github.com"
   s.license = {
     :type => 'Copyright',
     :text => <<-LICENSE
@@ -17,13 +17,11 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.authors      = {
-                     "kfeagle" =>"sunjjbobo@163.com"
+                     "yourname" =>""
                    }
   s.platform     = :ios
   s.ios.deployment_target = "7.0"
 
-  #s.source       = { :git => 'https://github.com/kfeagle/weex-action-sheet.git', :tag => '0.0.5' }
-  #s.source       = { :git => 'https://github.com/kfeagle/weex-action-sheet.git' }
   s.source =  { :path => '.' }
   s.source_files  = "ios/Sources/**/*.{h,m,mm}"
   

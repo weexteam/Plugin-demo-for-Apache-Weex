@@ -7,29 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C4E952A61E77800300CFB5B7 /* WPTestComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E952A01E77800300CFB5B7 /* WPTestComponent.h */; };
-		C4E952A71E77800300CFB5B7 /* WPTestComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E952A11E77800300CFB5B7 /* WPTestComponent.m */; };
-		C4E952A81E77800300CFB5B7 /* WPTestModule.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E952A21E77800300CFB5B7 /* WPTestModule.h */; };
-		C4E952A91E77800300CFB5B7 /* WPTestModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E952A31E77800300CFB5B7 /* WPTestModule.m */; };
-		C4E952AE1E77807000CFB5B7 /* WPTestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E952AC1E77807000CFB5B7 /* WPTestHandler.h */; };
-		C4E952AF1E77807000CFB5B7 /* WPTestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E952AD1E77807000CFB5B7 /* WPTestHandler.m */; };
+		C45843F01E84EF7B00D88C0B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C45843EF1E84EF7B00D88C0B /* Info.plist */; };
+		C45843F81E84F39100D88C0B /* WPTestComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C45843F21E84F39100D88C0B /* WPTestComponent.h */; };
+		C45843F91E84F39100D88C0B /* WPTestComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C45843F31E84F39100D88C0B /* WPTestComponent.m */; };
+		C45843FA1E84F39100D88C0B /* WPTestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = C45843F41E84F39100D88C0B /* WPTestHandler.h */; };
+		C45843FB1E84F39100D88C0B /* WPTestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C45843F51E84F39100D88C0B /* WPTestHandler.m */; };
+		C45843FC1E84F39100D88C0B /* WPTestModule.h in Headers */ = {isa = PBXBuildFile; fileRef = C45843F61E84F39100D88C0B /* WPTestModule.h */; };
+		C45843FD1E84F39100D88C0B /* WPTestModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C45843F71E84F39100D88C0B /* WPTestModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3AD7CFA50915C33F8BA17426 /* Pods-WeexPluginTemp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexPluginTemp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeexPluginTemp/Pods-WeexPluginTemp.debug.xcconfig"; sourceTree = "<group>"; };
-		6B3424AEC52C9D6FCFF9718D /* Pods-WeexPluginTemp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeexPluginTemp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeexPluginTemp/Pods-WeexPluginTemp.release.xcconfig"; sourceTree = "<group>"; };
-		C4E9528C1E777F1B00CFB5B7 /* WeexPluginTemp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeexPluginTemp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4E952901E777F1B00CFB5B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4E952A01E77800300CFB5B7 /* WPTestComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTestComponent.h; sourceTree = "<group>"; };
-		C4E952A11E77800300CFB5B7 /* WPTestComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTestComponent.m; sourceTree = "<group>"; };
-		C4E952A21E77800300CFB5B7 /* WPTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTestModule.h; sourceTree = "<group>"; };
-		C4E952A31E77800300CFB5B7 /* WPTestModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTestModule.m; sourceTree = "<group>"; };
-		C4E952AC1E77807000CFB5B7 /* WPTestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTestHandler.h; sourceTree = "<group>"; };
-		C4E952AD1E77807000CFB5B7 /* WPTestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTestHandler.m; sourceTree = "<group>"; };
+		0F1C92092FF9562A4B475501 /* Pods-<%= ExportProjectName %>.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-<%= ExportProjectName %>.debug.xcconfig"; path = "Pods/Target Support Files/Pods-<%= ExportProjectName %>/Pods-<%= ExportProjectName %>.debug.xcconfig"; sourceTree = "<group>"; };
+		87F9AEB97654FF7EEA032F16 /* Pods-<%= ExportProjectName %>.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-<%= ExportProjectName %>.release.xcconfig"; path = "Pods/Target Support Files/Pods-<%= ExportProjectName %>/Pods-<%= ExportProjectName %>.release.xcconfig"; sourceTree = "<group>"; };
+		C45843E41E84EF5B00D88C0B /* <%= ExportProjectName %>.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = <%= ExportProjectName %>.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45843EF1E84EF7B00D88C0B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45843F21E84F39100D88C0B /* WPTestComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTestComponent.h; sourceTree = "<group>"; };
+		C45843F31E84F39100D88C0B /* WPTestComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTestComponent.m; sourceTree = "<group>"; };
+		C45843F41E84F39100D88C0B /* WPTestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTestHandler.h; sourceTree = "<group>"; };
+		C45843F51E84F39100D88C0B /* WPTestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTestHandler.m; sourceTree = "<group>"; };
+		C45843F61E84F39100D88C0B /* WPTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTestModule.h; sourceTree = "<group>"; };
+		C45843F71E84F39100D88C0B /* WPTestModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTestModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C4E952881E777F1B00CFB5B7 /* Frameworks */ = {
+		C45843E01E84EF5B00D88C0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,141 +40,134 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		990DE4180A8D3202BE4C0966 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3AD7CFA50915C33F8BA17426 /* Pods-WeexPluginTemp.debug.xcconfig */,
-				6B3424AEC52C9D6FCFF9718D /* Pods-WeexPluginTemp.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		BFFDB60F9FDF2BE708806D7D /* Frameworks */ = {
+		248CB2E7B700A3049EE0727E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C4E952821E777F1B00CFB5B7 = {
+		C45843DA1E84EF5B00D88C0B = {
 			isa = PBXGroup;
 			children = (
-				C4E9529F1E77800300CFB5B7 /* Sources */,
-				C4E9528E1E777F1B00CFB5B7 /* WeexPluginTemp */,
-				C4E9528D1E777F1B00CFB5B7 /* Products */,
-				990DE4180A8D3202BE4C0966 /* Pods */,
-				BFFDB60F9FDF2BE708806D7D /* Frameworks */,
+				C45843F11E84F39000D88C0B /* Sources */,
+				C45843EF1E84EF7B00D88C0B /* Info.plist */,
+				C45843E51E84EF5B00D88C0B /* Products */,
+				DCA0321F3AC057FF2A8C84CB /* Pods */,
+				248CB2E7B700A3049EE0727E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		C4E9528D1E777F1B00CFB5B7 /* Products */ = {
+		C45843E51E84EF5B00D88C0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4E9528C1E777F1B00CFB5B7 /* WeexPluginTemp.framework */,
+				C45843E41E84EF5B00D88C0B /* <%= ExportProjectName %>.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C4E9528E1E777F1B00CFB5B7 /* WeexPluginTemp */ = {
+		C45843F11E84F39000D88C0B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C4E952901E777F1B00CFB5B7 /* Info.plist */,
-			);
-			path = WeexPluginTemp;
-			sourceTree = "<group>";
-		};
-		C4E9529F1E77800300CFB5B7 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				C4E952A01E77800300CFB5B7 /* WPTestComponent.h */,
-				C4E952A11E77800300CFB5B7 /* WPTestComponent.m */,
-				C4E952A21E77800300CFB5B7 /* WPTestModule.h */,
-				C4E952A31E77800300CFB5B7 /* WPTestModule.m */,
-				C4E952AC1E77807000CFB5B7 /* WPTestHandler.h */,
-				C4E952AD1E77807000CFB5B7 /* WPTestHandler.m */,
+				C45843F21E84F39100D88C0B /* WPTestComponent.h */,
+				C45843F31E84F39100D88C0B /* WPTestComponent.m */,
+				C45843F41E84F39100D88C0B /* WPTestHandler.h */,
+				C45843F51E84F39100D88C0B /* WPTestHandler.m */,
+				C45843F61E84F39100D88C0B /* WPTestModule.h */,
+				C45843F71E84F39100D88C0B /* WPTestModule.m */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		DCA0321F3AC057FF2A8C84CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F1C92092FF9562A4B475501 /* Pods-<%= ExportProjectName %>.debug.xcconfig */,
+				87F9AEB97654FF7EEA032F16 /* Pods-<%= ExportProjectName %>.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C4E952891E777F1B00CFB5B7 /* Headers */ = {
+		C45843E11E84EF5B00D88C0B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E952A61E77800300CFB5B7 /* WPTestComponent.h in Headers */,
-				C4E952AE1E77807000CFB5B7 /* WPTestHandler.h in Headers */,
-				C4E952A81E77800300CFB5B7 /* WPTestModule.h in Headers */,
+				C45843FA1E84F39100D88C0B /* WPTestHandler.h in Headers */,
+				C45843F81E84F39100D88C0B /* WPTestComponent.h in Headers */,
+				C45843FC1E84F39100D88C0B /* WPTestModule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C4E9528B1E777F1B00CFB5B7 /* WeexPluginTemp */ = {
+		C45843E31E84EF5B00D88C0B /* <%= ExportProjectName %> */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4E952941E777F1B00CFB5B7 /* Build configuration list for PBXNativeTarget "WeexPluginTemp" */;
+			buildConfigurationList = C45843EC1E84EF5C00D88C0B /* Build configuration list for PBXNativeTarget "<%= ExportProjectName %>" */;
 			buildPhases = (
-				34C107F5D1CD062B761F7144 /* [CP] Check Pods Manifest.lock */,
-				C4E952871E777F1B00CFB5B7 /* Sources */,
-				C4E952881E777F1B00CFB5B7 /* Frameworks */,
-				C4E952891E777F1B00CFB5B7 /* Headers */,
-				C4E9528A1E777F1B00CFB5B7 /* Resources */,
+				632ACA55BC2204B1168D1E27 /* [CP] Check Pods Manifest.lock */,
+				C45843DF1E84EF5B00D88C0B /* Sources */,
+				C45843E01E84EF5B00D88C0B /* Frameworks */,
+				C45843E11E84EF5B00D88C0B /* Headers */,
+				C45843E21E84EF5B00D88C0B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WeexPluginTemp;
-			productName = WeexPluginTemp;
-			productReference = C4E9528C1E777F1B00CFB5B7 /* WeexPluginTemp.framework */;
+			name = <%= ExportProjectName %>;
+			productName = <%= ExportProjectName %>;
+			productReference = C45843E41E84EF5B00D88C0B /* <%= ExportProjectName %>.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C4E952831E777F1B00CFB5B7 /* Project object */ = {
+		C45843DB1E84EF5B00D88C0B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = taobao;
+				ORGANIZATIONNAME = weexplugin;
 				TargetAttributes = {
-					C4E9528B1E777F1B00CFB5B7 = {
+					C45843E31E84EF5B00D88C0B = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = C4E952861E777F1B00CFB5B7 /* Build configuration list for PBXProject "WeexPluginTemp" */;
+			buildConfigurationList = C45843DE1E84EF5B00D88C0B /* Build configuration list for PBXProject "<%= ExportProjectName %>" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C4E952821E777F1B00CFB5B7;
-			productRefGroup = C4E9528D1E777F1B00CFB5B7 /* Products */;
+			mainGroup = C45843DA1E84EF5B00D88C0B;
+			productRefGroup = C45843E51E84EF5B00D88C0B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4E9528B1E777F1B00CFB5B7 /* WeexPluginTemp */,
+				C45843E31E84EF5B00D88C0B /* <%= ExportProjectName %> */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C4E9528A1E777F1B00CFB5B7 /* Resources */ = {
+		C45843E21E84EF5B00D88C0B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45843F01E84EF7B00D88C0B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		34C107F5D1CD062B761F7144 /* [CP] Check Pods Manifest.lock */ = {
+		632ACA55BC2204B1168D1E27 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -191,20 +185,20 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C4E952871E777F1B00CFB5B7 /* Sources */ = {
+		C45843DF1E84EF5B00D88C0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E952A91E77800300CFB5B7 /* WPTestModule.m in Sources */,
-				C4E952A71E77800300CFB5B7 /* WPTestComponent.m in Sources */,
-				C4E952AF1E77807000CFB5B7 /* WPTestHandler.m in Sources */,
+				C45843FD1E84F39100D88C0B /* WPTestModule.m in Sources */,
+				C45843F91E84F39100D88C0B /* WPTestComponent.m in Sources */,
+				C45843FB1E84F39100D88C0B /* WPTestHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C4E952921E777F1B00CFB5B7 /* Debug */ = {
+		C45843EA1E84EF5C00D88C0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		C4E952931E777F1B00CFB5B7 /* Release */ = {
+		C45843EB1E84EF5C00D88C0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -300,39 +294,41 @@
 			};
 			name = Release;
 		};
-		C4E952951E777F1B00CFB5B7 /* Debug */ = {
+		C45843ED1E84EF5C00D88C0B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AD7CFA50915C33F8BA17426 /* Pods-WeexPluginTemp.debug.xcconfig */;
+			baseConfigurationReference = 0F1C92092FF9562A4B475501 /* Pods-<%= ExportProjectName %>.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = WeexPluginTemp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.WeexPluginTemp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weexplugin.<%= ExportProjectName %>;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		C4E952961E777F1B00CFB5B7 /* Release */ = {
+		C45843EE1E84EF5C00D88C0B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B3424AEC52C9D6FCFF9718D /* Pods-WeexPluginTemp.release.xcconfig */;
+			baseConfigurationReference = 87F9AEB97654FF7EEA032F16 /* Pods-<%= ExportProjectName %>.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = WeexPluginTemp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.WeexPluginTemp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weexplugin.<%= ExportProjectName %>;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -341,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4E952861E777F1B00CFB5B7 /* Build configuration list for PBXProject "WeexPluginTemp" */ = {
+		C45843DE1E84EF5B00D88C0B /* Build configuration list for PBXProject "<%= ExportProjectName %>" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4E952921E777F1B00CFB5B7 /* Debug */,
-				C4E952931E777F1B00CFB5B7 /* Release */,
+				C45843EA1E84EF5C00D88C0B /* Debug */,
+				C45843EB1E84EF5C00D88C0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4E952941E777F1B00CFB5B7 /* Build configuration list for PBXNativeTarget "WeexPluginTemp" */ = {
+		C45843EC1E84EF5C00D88C0B /* Build configuration list for PBXNativeTarget "<%= ExportProjectName %>" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4E952951E777F1B00CFB5B7 /* Debug */,
-				C4E952961E777F1B00CFB5B7 /* Release */,
+				C45843ED1E84EF5C00D88C0B /* Debug */,
+				C45843EE1E84EF5C00D88C0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C4E952831E777F1B00CFB5B7 /* Project object */;
+	rootObject = C45843DB1E84EF5B00D88C0B /* Project object */;
 }
