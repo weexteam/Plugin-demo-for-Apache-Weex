@@ -21,6 +21,6 @@ npm link
 Then generate your new project:
 
 ```bash
-yo weex-plugin-template
+yo weex-plugin
 ```
 
