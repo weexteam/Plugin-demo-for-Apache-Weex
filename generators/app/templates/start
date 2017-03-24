@@ -5,6 +5,6 @@ pushd "$THIS_DIR"
 
 
 npm run serve &
-npm run dev:examples
+npm run dev
 
 popd

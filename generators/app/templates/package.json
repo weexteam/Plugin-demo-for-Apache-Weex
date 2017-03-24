@@ -1,8 +1,7 @@
 {
   "name": "<%= projectName %>",
-  "test":"<%= ExportProjectName %>",
   "version": "0.0.1",
-  "main": "./js/index.js",
+  "main": "./js/dist/index.js",
 
   "description": "action sheet extend",
   "license": "Apache-2.0",
@@ -33,8 +32,9 @@
     "node": ">=4"
   },
   "scripts": {
+    "dev": "rollup -w -c ./build/rollup.config.js && webpack --watch --config ./build/webpack.examples.config.js && serve ./ -p 12581",
+    "build": "rollup -c ./build/rollup.config.js",
     "build:examples": "webpack --config build/webpack.examples.config.js",
-    "dev:examples": "webpack --watch --config build/webpack.examples.config.js",
     "copy:examples": "rm -rf .examples/android/app/src/main/assets/* && cp -vrf ./examples/build/* ./android/app/src/main/assets/ &&rm -rf .examples/ios/bundlejs/* && cp -vrf ./examples/build/* .examples/ios/bundles/",
     "lint": "eslint html5",
     "serve": "serve ./ -p 12580"
