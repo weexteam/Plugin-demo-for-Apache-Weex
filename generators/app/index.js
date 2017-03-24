@@ -26,16 +26,16 @@ module.exports = Generator.extend({
 
   writing: function () {
       var tp = this.templatePath();
-      var files = glob.sync(tp + '/**', {nodir: true});
+
+    var ExportProjectName = this.props.projectName.replace(/\-(\w)/g, function(all, letter){
+      return letter.toUpperCase();
+    });
+
+    this.props.ExportProjectName = ExportProjectName.charAt(0).toUpperCase() + ExportProjectName.slice(1);
+
+    var files = glob.sync(tp + '/**', {nodir: true});
       files.forEach(function (file) {
-        if(!/\.(png|jpg|gif|jar)/.test(file)){
-
-          var ExportProjectName = this.props.projectName.replace(/\-(\w)/g, function(all, letter){
-            return letter.toUpperCase();
-          });
-
-          this.props.ExportProjectName = ExportProjectName.charAt(0).toUpperCase() + ExportProjectName.slice(1);
-
+        if(!/\.(png|jpg|gif|jar|framework)/.test(file)){
           var source = file.slice(tp.length + 1);
           var destination = this.props.projectName + '/' + source.replace(/ExportProjectName/g, this.props.ExportProjectName);
 
@@ -43,6 +43,14 @@ module.exports = Generator.extend({
               tp + '/' + source,
               this.destinationPath(destination),
               this.props
+          );
+        }
+        else{
+          var source = file.slice(tp.length + 1);
+          var destination = this.props.projectName + '/' + source.replace(/ExportProjectName/g, this.props.ExportProjectName);
+          this.fs.copy(
+              tp + '/' + source,
+              this.destinationPath(destination)
           );
         }
 
