@@ -6,7 +6,14 @@
 
   "description": "action sheet extend",
   "license": "Apache-2.0",
-
+   "ios":{
+     "type":"pod",
+     "name":"<%=  iOSProjectName %>"
+   },
+  "android":{
+    "type":"maven",
+    "name":"<%=  AndroidProjectName %>"
+  },
   "keywords": [
     "weex",
     "hybrid",
