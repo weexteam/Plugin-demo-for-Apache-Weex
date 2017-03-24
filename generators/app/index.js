@@ -78,7 +78,7 @@ module.exports = Generator.extend({
 
       files.forEach(function (file) {
         var source = file.slice(tp.length + 1);
-        var rep = source.replace(/iosProjectName/g, this.props.iosProjectName)
+        var rep = source.replace(/iOSProjectName/g, this.props.iOSProjectName)
             .replace(/AndroidProjectName/g, this.props.AndroidProjectName)
             .replace(/ExportProjectName/g, this.props.ExportProjectName)
 
