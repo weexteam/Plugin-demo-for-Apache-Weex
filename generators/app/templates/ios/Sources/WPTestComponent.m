@@ -11,6 +11,6 @@
 
 @implementation WPTestComponent
 
-WX_PlUGIN_EXPORT_MODULE(test, WPTestComponent)
+WX_PlUGIN_EXPORT_COMPONENT(test, WPTestComponent)
 
 @end
