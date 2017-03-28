@@ -80,13 +80,15 @@ module.exports = Generator.extend({
         var source = file.slice(tp.length + 1);
 
 
-        if(/_/ig.test(source)){
-          source = source.replace(/_/ig, "")
-        }
 
         var rep = source.replace(/iOSProjectName/g, this.props.iOSProjectName)
             .replace(/AndroidProjectName/g, this.props.AndroidProjectName)
             .replace(/ExportProjectName/g, this.props.ExportProjectName)
+
+        if(/_/ig.test(rep)){
+          rep = rep.replace(/_/ig, "")
+        }
+
 
         var destination = this.props.projectName + '/' + rep;
 
