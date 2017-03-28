@@ -78,6 +78,12 @@ module.exports = Generator.extend({
 
       files.forEach(function (file) {
         var source = file.slice(tp.length + 1);
+
+
+        if(/_/ig.test(source)){
+          source = source.replace(/_/ig, "")
+        }
+
         var rep = source.replace(/iOSProjectName/g, this.props.iOSProjectName)
             .replace(/AndroidProjectName/g, this.props.AndroidProjectName)
             .replace(/ExportProjectName/g, this.props.ExportProjectName)
@@ -106,11 +112,11 @@ module.exports = Generator.extend({
 
   install: function () {
     this.spawnCommand('npm', ['install']);
-    // this.installDependencies({
-    //   npm: true,
-    //   bower: false,
-    //   yarn: false
-    // });
+    this.installDependencies({
+      npm: true,
+      bower: false,
+      yarn: false
+    });
   },
   end: function(){
     this.log("weex 插件工程已经创建完成")

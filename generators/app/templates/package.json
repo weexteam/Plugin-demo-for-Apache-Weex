@@ -1,6 +1,6 @@
 {
   "name": "<%= projectName %>",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "main": "./js/dist/index.js",
 
   "description": "action sheet extend",
