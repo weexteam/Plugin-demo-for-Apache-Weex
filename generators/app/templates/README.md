@@ -31,9 +31,7 @@
   weex plugin add <%= projectName %>
   ```
 - 手动集成
-  在gradle dependencies中添加
+  在相应工程的build.gradle文件的dependencies中添加
   ```
-  compile '<%=  %>'
-  ```
-  
-
+  compile 'org.weex.plugin:<%= AndroidProjectName %>:{$version}'
+  ```        
