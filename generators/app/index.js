@@ -105,11 +105,12 @@ module.exports = Generator.extend({
   },
 
   install: function () {
-    this.installDependencies({
-      npm: true,
-      bower: false,
-      yarn: false
-    });
+    this.spawnCommand('npm', ['install']);
+    // this.installDependencies({
+    //   npm: true,
+    //   bower: false,
+    //   yarn: false
+    // });
   },
   end: function(){
     this.log("weex 插件工程已经创建完成")
