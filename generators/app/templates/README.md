@@ -32,12 +32,6 @@
   ```
 - 手动集成
   在相应工程的build.gradle文件的dependencies中添加
-  
   ```
-  compile 'org.weex.plugin:<%= AndroidProjectName %>:{$version}'
+  compile 'org.weex.plugin:<%= AndroidProjectName %>:{$version}'
   ``` 
-
-
-
-
-
