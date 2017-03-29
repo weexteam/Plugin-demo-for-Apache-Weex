@@ -25,6 +25,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.1.1'
+    compile 'org.weex.plugin:plugin-loader:1.0.0'
     testCompile 'junit:junit:4.12'
     compile project(path: ':library')
 }
