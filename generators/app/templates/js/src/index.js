@@ -6,6 +6,15 @@ const <%= ExportProjectName %> = {
   }
 };
 
+
+var meta = {
+ <%= ExportProjectName %>: [{
+    name: 'create',
+    args: ['object', 'string']
+  }]
+};
+
+
 if(window.Vue) {
   weex.registerModule('<%= ExportProjectName %>', <%= ExportProjectName %>);
 }
@@ -15,5 +24,5 @@ function init(weex) {
 }
 
 module.exports = {
-  init
+  init:init
 };

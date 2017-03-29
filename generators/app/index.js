@@ -85,8 +85,8 @@ module.exports = Generator.extend({
             .replace(/AndroidProjectName/g, this.props.AndroidProjectName)
             .replace(/ExportProjectName/g, this.props.ExportProjectName)
 
-        if(/_/ig.test(rep)){
-          rep = rep.replace(/_/ig, "")
+        if(/^_/ig.test(rep)){
+          rep = rep.replace(/^_/ig, "")
         }
 
 
