@@ -46,6 +46,15 @@ module.exports = {
       {
         test: /\.(we|vue)(\?[^?]+)?$/,
         loader: 'weex'
+      },
+      {
+        test: /\.js(\?[^?]+)?$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader?presets[]=es2015',
+      },
+      {
+        test: /\.css(\?[^?]+)?$/,
+        loader: 'style-loader!css-loader'
       }
     ]
   },
