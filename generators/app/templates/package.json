@@ -1,17 +1,20 @@
 {
   "name": "<%= projectName %>",
-  "version": "0.0.2",
-  "main": "./js/dist/index.js",
+  "version": "0.1.1",
+  "main": "./js/build/main.js",
 
-  "description": "action sheet extend",
+  "description": "<%= projectName %> extend for weex",
   "license": "Apache-2.0",
+   //ios工程安装配置
    "ios":{
-     "type":"pod",
-     "name":"<%=  iOSProjectName %>"
+     "type":"pod", //安装类型为pod
+     "name":"<%=  iOSProjectName %>" //pod包名
    },
+  //android工程安装配置
   "android":{
-    "type":"maven",
-    "name":"<%=  AndroidProjectName %>"
+    "type":"maven", //安装类型为maven
+    "groupId":"org.weex.plugin", //组名
+    "name":"<%=  AndroidProjectName %>" //包名
   },
   "keywords": [
     "weex",
@@ -32,8 +35,8 @@
     "node": ">=4"
   },
   "scripts": {
-    "dev": "rollup -w -c ./build/rollup.config.js",
-    "build": "rollup -c ./build/rollup.config.js",
+    "dev": "webpack --watch --config build/webpack.config.js",
+    "build": "webpack --config build/webpack.config.js",
     "dev:examples": "webpack --watch --config build/webpack.examples.config.js",
     "build:examples": "webpack --config build/webpack.examples.config.js",
     "copy:examples": "rm -rf .examples/android/app/src/main/assets/* && cp -vrf ./examples/build/* ./android/app/src/main/assets/ &&rm -rf .examples/ios/bundlejs/* && cp -vrf ./examples/build/* .examples/ios/bundles/",
@@ -62,6 +65,7 @@
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.16.0",
     "babel-runtime": "^6.11.6",
+    "babel-eslint": "^7.1.1",
 
     "cross-spawn": "^4.0.0",
     "eslint": "^2.11.1",
@@ -88,6 +92,12 @@
     "weex-components": "^0.2.0",
     "weex-loader": "^0.4.0",
     "weex-vdom-tester": "^0.2.0",
-    "wwp": "^0.3.5"
+
+    "style-loader": "^0.13.1",
+    "vue-loader": "^10.3.0",
+    "css-loader": "^0.26.1",
+    "vue": "^2.1.10",
+    "vue-template-compiler": "^2.1.10"
+
   }
 }
