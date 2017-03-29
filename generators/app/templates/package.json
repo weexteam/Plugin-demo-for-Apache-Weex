@@ -1,18 +1,20 @@
 {
   "name": "<%= projectName %>",
   "version": "0.1.1",
-  "main": "./js/src/index.js",
+  "main": "./js/dist/index.js",
 
-  "description": "action sheet extend",
+  "description": "<%= projectName %> extend for weex",
   "license": "Apache-2.0",
+   //ios工程安装配置
    "ios":{
-     "type":"pod",
-     "name":"<%=  iOSProjectName %>"
+     "type":"pod", //安装类型为pod
+     "name":"<%=  iOSProjectName %>" //pod包名
    },
+  //android工程安装配置
   "android":{
-    "type":"maven",
-    "groupId":"org.weex.plugin",
-    "name":"<%=  AndroidProjectName %>"
+    "type":"maven", //安装类型为maven
+    "groupId":"org.weex.plugin", //组名
+    "name":"<%=  AndroidProjectName %>" //包名
   },
   "keywords": [
     "weex",
