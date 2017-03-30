@@ -3,7 +3,7 @@ var path = require('path');
 var assert = require('yeoman-assert');
 var helpers = require('yeoman-test');
 
-describe('generator-weex-plugin-template:app', function () {
+describe('generator-weex-plugin:app', function () {
   before(function () {
     return helpers.run(path.join(__dirname, '../generators/app'))
       .withPrompts({someAnswer: true})
@@ -12,7 +12,7 @@ describe('generator-weex-plugin-template:app', function () {
 
   it('creates files', function () {
     assert.file([
-      'dummyfile.txt'
+      'npmignore'
     ]);
   });
 });

@@ -56,6 +56,12 @@ module.exports = Generator.extend({
         name: 'AndroidProjectName',
         message: 'please confirm Android Project Name',
         default: AndroidProjectName
+      },
+      {
+        type: 'input',
+        name: 'WeexSDKVersion',
+        message: 'please confirm WeexSDK version',
+        default: '0.10.0'
       }
       ];
 

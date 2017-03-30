@@ -1,5 +1,8 @@
 # <%= projectName %>
-- <%= projectName %>是一个weex插件，可以通过weexpack快速集成，可以丰富weex功能
+<%= projectName %>是一个weex插件，可以通过weexpack快速集成，可以丰富weex功能
+
+支持的weexpack版本： >= 0.2.0
+支持的WeexSDK版本： >= <%= WeexSDKVersion %>
 
 # 功能
 
