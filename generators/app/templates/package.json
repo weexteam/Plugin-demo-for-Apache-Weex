@@ -1,27 +1,22 @@
 {
   "name": "<%= projectName %>",
-  //主版本
   "version": "0.0.1",
   "main": "./js/build/main.js",
   "description": "<%= projectName %> extend for weex",
   "license": "Apache-2.0",
-
   "WeexSDKVersoin":"<%= WeexSDKVersion %>",
-   //ios工程安装配置
+  "//":"ios工程安装配置",
    "ios":{
-     //安装类型为pod
+     "//":"安装类型为pod",
      "type":"pod",
-     //pod包名
      "name":"<%=  iOSProjectName %>",
      "version:":"0.0.1"
    },
-  //android工程安装配置
+  "//":"android工程安装配置",
   "android":{
-    //安装类型为maven
+    "//":"安装类型为maven",
     "type":"maven",
-    //组名
     "groupId":"org.weex.plugin",
-    //包名
     "name":"<%=  AndroidProjectName %>",
     "version:":"0.0.1"
   },
@@ -98,7 +93,6 @@
     "sinon-chai": "^2.8.0",
     "uglify-js": "^2.6.4",
     "webpack": "^1.13.1",
-    "weex-components": "^0.2.0",
     "weex-loader": "^0.4.0",
     "weex-vdom-tester": "^0.2.0",
 
@@ -107,6 +101,5 @@
     "css-loader": "^0.26.1",
     "vue": "^2.1.10",
     "vue-template-compiler": "^2.1.10"
-
   }
 }

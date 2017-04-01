@@ -15,8 +15,6 @@ var meta = {
 };
 
 
-weex.registerModule('<%= ExportProjectName %>', <%= ExportProjectName %>);
-
 
 function init(weex) {
   weex.registerApiModule('<%= ExportProjectName %>', <%= ExportProjectName %>, meta);
