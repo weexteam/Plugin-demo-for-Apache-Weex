@@ -13,19 +13,19 @@ Pod::Spec.new do |s|
   s.license = {
     :type => 'Copyright',
     :text => <<-LICENSE
-           Alibaba-INC copyright
+            copyright
     LICENSE
   }
   s.authors      = {
-                     "yourname" =>""
+                     "yourname" =>"youreamail"
                    }
   s.platform     = :ios
   s.ios.deployment_target = "7.0"
 
-  s.source =  { :path => '.' }
-  s.source_files  = "ios/Sources/**/*.{h,m,mm}"
+  s.source       = { :git => 'please input the url of your code in github', :tag => 'please input you github tag' }
+  s.source_files  = "ios/Sources/*.{h,m,mm}"
   
   s.requires_arc = true
-  s.dependency "WeexPlugin"
+  s.dependency "WeexPluginLoader"
   s.dependency "WeexSDK"
 end
