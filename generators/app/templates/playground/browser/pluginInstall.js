@@ -1,2 +1,2 @@
 
-Weex.install(require("../../js/src"));
+weex.install(require("../../js/src"));
