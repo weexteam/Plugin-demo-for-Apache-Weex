@@ -1,3 +1,30 @@
 <template>
-	<div><text><%= projectName %></text></div>
+	<div class="conatiner">
+		<text style="margin-bottom: 20px;">weex plugin examples</text>
+		<div @click="createAction" style="margin: 20px;padding:20px;background-color:#1ba1e2;color:#fff;"><text style="color:#fff">Create Action</text></div>
+	</div>
 </template>
+
+<style>
+	.container{
+		flex: 1;
+	}
+</style>
+
+<script>
+
+	const pluginInstance = weex.requireModule('<%= ExportProjectName %>');
+	module.exports = {
+		data: {
+			value: '',
+			index: 0,
+			txtChange: ''
+		},
+		methods: {
+			createAction: function() {
+				pluginInstance.create();
+
+			}
+		}
+	}
+</script>

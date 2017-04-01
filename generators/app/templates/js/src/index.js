@@ -2,7 +2,7 @@
 
 const <%= ExportProjectName %> = {
   create(options, callbackID) {
-
+      alert("this is <%= ExportProjectName %> weex plugin")
   }
 };
 
@@ -15,9 +15,8 @@ var meta = {
 };
 
 
-if(window.Vue) {
-  weex.registerModule('<%= ExportProjectName %>', <%= ExportProjectName %>);
-}
+weex.registerModule('<%= ExportProjectName %>', <%= ExportProjectName %>);
+
 
 function init(weex) {
   weex.registerApiModule('<%= ExportProjectName %>', <%= ExportProjectName %>, meta);
