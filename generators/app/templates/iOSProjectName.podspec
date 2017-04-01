@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "7.0"
 
   s.source       = { :git => 'please input the url of your code in github', :tag => 'please input you github tag' }
-  s.source_files  = "ios/Sources/**/*.{h,m,mm}"
+  s.source_files  = "ios/Sources/*.{h,m,mm}"
   
   s.requires_arc = true
   s.dependency "WeexPluginLoader"
