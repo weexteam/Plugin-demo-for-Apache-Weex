@@ -9,8 +9,8 @@ def common
     pod 'SocketRocket', '0.4.2'
     pod 'ATSDK-Weex', '0.0.1'
     pod '<%= ExportProjectName %>', :path=>'../../'
-    pod 'WeexPlugin', :git => 'https://github.com/kfeagle/WeexPlugin.git'
-#    pod 'WeexPlugin'
+    pod 'WeexPluginLoader', :git => 'https://github.com/kfeagle/WeexPluginLoader.git'
+#    pod 'WeexPluginLoader'
 end
 
 target 'WeexDemo' do
