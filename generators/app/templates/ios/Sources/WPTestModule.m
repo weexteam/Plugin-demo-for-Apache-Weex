@@ -7,7 +7,7 @@
 //
 
 #import "WPTestModule.h"
-#import <WeexPlugin/WeexPlugin.h>
+#import <WeexPluginLoader/WeexPluginLoader.h>
 
 @implementation WPTestModule
 

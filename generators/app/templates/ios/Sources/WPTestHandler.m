@@ -7,11 +7,11 @@
 //
 
 #import "WPTestHandler.h"
-#import <WeexPlugin/WeexPlugin.h>
+#import <WeexPluginLoader/WeexPluginLoader.h>
 
 @implementation WPTestHandler
 
-WX_PlUGIN_EXPORT_HANDLER(WPTestHandler, WXImgLoaderProtocol)
+//WX_PlUGIN_EXPORT_HANDLER(WPTestHandler, WXImgLoaderProtocol)
 
 - (id<WXImageOperationProtocol>)downloadImageWithURL:(NSString *)url imageFrame:(CGRect)imageFrame userInfo:(NSDictionary *)userInfo completed:(void(^)(UIImage *image,  NSError *error, BOOL finished))completedBlock
 {
