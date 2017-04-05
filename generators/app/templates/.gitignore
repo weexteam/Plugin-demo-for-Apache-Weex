@@ -27,6 +27,7 @@ project.xcworkspace
 
 # node.js
 #
+examples/build/
 node_modules/
 npm-debug.log
 

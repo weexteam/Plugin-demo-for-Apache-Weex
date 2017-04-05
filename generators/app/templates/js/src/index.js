@@ -2,7 +2,7 @@
 
 const <%= ExportProjectName %> = {
   create(options, callbackID) {
-      alert("this is <%= ExportProjectName %> weex plugin")
+      alert("module <%= ExportProjectName %> is created sucessfully ")
   }
 };
 
