@@ -1,7 +1,7 @@
 
 
 const <%= ExportProjectName %> = {
-  create(options, callbackID) {
+  show() {
       alert("module <%= ExportProjectName %> is created sucessfully ")
   }
 };
@@ -10,7 +10,7 @@ const <%= ExportProjectName %> = {
 var meta = {
    <%= ExportProjectName %>: [{
     name: 'show',
-    args: ['object', 'string']
+    args: []
   }]
 };
 
