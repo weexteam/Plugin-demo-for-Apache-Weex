@@ -119,7 +119,7 @@ module.exports = Generator.extend({
   },
 
   install: function () {
-    this.spawnCommand('npm', ['install']);
+    // this.spawnCommand('npm', ['install']);
     this.installDependencies({
       npm: true,
       bower: false,

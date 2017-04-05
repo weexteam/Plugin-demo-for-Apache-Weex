@@ -8,8 +8,8 @@ const <%= ExportProjectName %> = {
 
 
 var meta = {
- <%= ExportProjectName %>: [{
-    name: 'create',
+   <%= ExportProjectName %>: [{
+    name: 'show',
     args: ['object', 'string']
   }]
 };
