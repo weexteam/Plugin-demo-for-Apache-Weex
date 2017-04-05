@@ -8,12 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C45843F01E84EF7B00D88C0B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C45843EF1E84EF7B00D88C0B /* Info.plist */; };
-		C45843F81E84F39100D88C0B /* WPTestComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = C45843F21E84F39100D88C0B /* WPTestComponent.h */; };
-		C45843F91E84F39100D88C0B /* WPTestComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C45843F31E84F39100D88C0B /* WPTestComponent.m */; };
-		C45843FA1E84F39100D88C0B /* WPTestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = C45843F41E84F39100D88C0B /* WPTestHandler.h */; };
-		C45843FB1E84F39100D88C0B /* WPTestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C45843F51E84F39100D88C0B /* WPTestHandler.m */; };
-		C45843FC1E84F39100D88C0B /* WPTestModule.h in Headers */ = {isa = PBXBuildFile; fileRef = C45843F61E84F39100D88C0B /* WPTestModule.h */; };
-		C45843FD1E84F39100D88C0B /* WPTestModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C45843F71E84F39100D88C0B /* WPTestModule.m */; };
+		C45843FC1E84F39100D88C0B /* <%= iOSProjectName %>Module.h in Headers */ = {isa = PBXBuildFile; fileRef = C45843F61E84F39100D88C0B /* Module.h */; };
+		C45843FD1E84F39100D88C0B /* <%= iOSProjectName %>Module.m in Sources */ = {isa = PBXBuildFile; fileRef = C45843F71E84F39100D88C0B /* <%= iOSProjectName %>Module.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,12 +17,8 @@
 		87F9AEB97654FF7EEA032F16 /* Pods-<%= iOSProjectName %>.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-<%= iOSProjectName %>.release.xcconfig"; path = "Pods/Target Support Files/Pods-<%= iOSProjectName %>/Pods-<%= iOSProjectName %>.release.xcconfig"; sourceTree = "<group>"; };
 		C45843E41E84EF5B00D88C0B /* <%= iOSProjectName %>.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = <%= iOSProjectName %>.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45843EF1E84EF7B00D88C0B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C45843F21E84F39100D88C0B /* WPTestComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTestComponent.h; sourceTree = "<group>"; };
-		C45843F31E84F39100D88C0B /* WPTestComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTestComponent.m; sourceTree = "<group>"; };
-		C45843F41E84F39100D88C0B /* WPTestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTestHandler.h; sourceTree = "<group>"; };
-		C45843F51E84F39100D88C0B /* WPTestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTestHandler.m; sourceTree = "<group>"; };
-		C45843F61E84F39100D88C0B /* WPTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTestModule.h; sourceTree = "<group>"; };
-		C45843F71E84F39100D88C0B /* WPTestModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTestModule.m; sourceTree = "<group>"; };
+		C45843F61E84F39100D88C0B /* <%= iOSProjectName %>Module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = <%= iOSProjectName %>Module.h; sourceTree = "<group>"; };
+		C45843F71E84F39100D88C0B /* <%= iOSProjectName %>Module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = <%= iOSProjectName %>Module.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,12 +61,8 @@
 		C45843F11E84F39000D88C0B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C45843F21E84F39100D88C0B /* WPTestComponent.h */,
-				C45843F31E84F39100D88C0B /* WPTestComponent.m */,
-				C45843F41E84F39100D88C0B /* WPTestHandler.h */,
-				C45843F51E84F39100D88C0B /* WPTestHandler.m */,
-				C45843F61E84F39100D88C0B /* WPTestModule.h */,
-				C45843F71E84F39100D88C0B /* WPTestModule.m */,
+				C45843F61E84F39100D88C0B /* <%= iOSProjectName %>Module.h */,
+				C45843F71E84F39100D88C0B /* <%= iOSProjectName %>Module.m */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -95,9 +83,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C45843FA1E84F39100D88C0B /* WPTestHandler.h in Headers */,
-				C45843F81E84F39100D88C0B /* WPTestComponent.h in Headers */,
-				C45843FC1E84F39100D88C0B /* WPTestModule.h in Headers */,
+				C45843FC1E84F39100D88C0B /* <%= iOSProjectName %>Module.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,9 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C45843FD1E84F39100D88C0B /* WPTestModule.m in Sources */,
-				C45843F91E84F39100D88C0B /* WPTestComponent.m in Sources */,
-				C45843FB1E84F39100D88C0B /* WPTestHandler.m in Sources */,
+				C45843FD1E84F39100D88C0B /* <%= iOSProjectName %>Module.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  WPTestModule.h
+//  <%= iOSProjectName %>Module.h
 //  WeexPluginTemp
 //
 //  Created by 齐山 on 17/3/14.
@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <WeexSDK/WeexSDK.h>
 
-@interface WPTestModule : NSObject<WXModuleProtocol>
+@interface <%= iOSProjectName %>Module : NSObject<WXModuleProtocol>
 
 @end
