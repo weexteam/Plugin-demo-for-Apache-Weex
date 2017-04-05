@@ -71,7 +71,7 @@ module.exports = Generator.extend({
       this.props.projectName = projectName;
       this.props.ExportProjectName = iOSProjectName;
       //
-      
+
 
 
     }.bind(this));
