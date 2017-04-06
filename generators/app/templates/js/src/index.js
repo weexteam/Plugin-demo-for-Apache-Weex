@@ -2,7 +2,7 @@
 
 const <%= upperCamelCaseName %> = {
   show() {
-      alert("module <%= CamelCaseName %> is created sucessfully ")
+      alert("module <%= upperCamelCaseName %> is created sucessfully ")
   }
 };
 

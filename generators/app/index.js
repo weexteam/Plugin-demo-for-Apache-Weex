@@ -50,7 +50,7 @@ module.exports = Generator.extend({
 
     upperCamelCaseName = lowerCamelCaseName.charAt(0).toUpperCase() + lowerCamelCaseName.slice(1);
 
-
+    iOSProjectName = upperCamelCaseName;
 
     var prompts = [{
       type: 'input',
