@@ -1,6 +1,6 @@
 
 
-const <%= CamelCaseName %> = {
+const <%= upperCamelCaseName %> = {
   show() {
       alert("module <%= CamelCaseName %> is created sucessfully ")
   }
@@ -8,7 +8,7 @@ const <%= CamelCaseName %> = {
 
 
 var meta = {
-   <%= CamelCaseName %>: [{
+   <%= upperCamelCaseName %>: [{
     name: 'show',
     args: []
   }]
@@ -17,11 +17,11 @@ var meta = {
 
 
 if(window.Vue) {
-  weex.registerModule('<%= ExportProjectName %>', <%= CamelCaseName %>);
+  weex.registerModule('<%= ExportProjectName %>', <%= upperCamelCaseName %>);
 }
 
 function init(weex) {
-  weex.registerApiModule('<%= ExportProjectName %>', <%= CamelCaseName %>, meta);
+  weex.registerApiModule('<%= ExportProjectName %>', <%= upperCamelCaseName %>, meta);
 }
 module.exports = {
   init:init
