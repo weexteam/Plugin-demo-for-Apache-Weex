@@ -34,12 +34,12 @@ module.exports = Generator.extend({
     var iOSProjectName = projectName
     var AndroidProjectName = projectName
     var ExportProjectName = projectName
-    var camelCaseName = projectName;
-    var CamelCaseName = projectName
+    var lowerCamelCaseName = projectName;
+    var upperCamelCaseName = projectName
 
     if(/-/ig.test(projectName)){
 
-      camelCaseName  =  ExportProjectName = projectName.replace(/\-(\w)/g, function(all, letter){
+      lowerCamelCaseName  =  ExportProjectName = projectName.replace(/\-(\w)/g, function(all, letter){
         return letter.toUpperCase();
       });
 
@@ -48,7 +48,7 @@ module.exports = Generator.extend({
     }
 
 
-    CamelCaseName = camelCaseName.charAt(0).toUpperCase() + camelCaseName.slice(1);
+    upperCamelCaseName = lowerCamelCaseName.charAt(0).toUpperCase() + lowerCamelCaseName.slice(1);
 
 
 
@@ -77,8 +77,8 @@ module.exports = Generator.extend({
       this.props = props;
       this.props.projectName = projectName;
       this.props.ExportProjectName = iOSProjectName;
-      this.props.CamelCaseName = CamelCaseName;
-      this.props.camelCaseName = camelCaseName;
+      this.props.upperCamelCaseName = upperCamelCaseName;
+      this.props.lowerCamelCaseName = lowerCamelCaseName;
       //
 
 
