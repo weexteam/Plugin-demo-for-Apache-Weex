@@ -13,7 +13,7 @@
 
 <script>
 
-	const plugin = weex.requireModule('<%= upperCamelCaseName %>');
+	const plugin = weex.requireModule('<%= lowerCamelCaseName %>');
 	module.exports = {
 		data: {
 			value: '',

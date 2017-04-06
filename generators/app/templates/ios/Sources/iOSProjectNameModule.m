@@ -11,7 +11,7 @@
 
 @implementation <%= iOSProjectName %>Module
 
-WX_PlUGIN_EXPORT_MODULE(<%= iOSProjectName %>, <%= iOSProjectName %>Module)
+WX_PlUGIN_EXPORT_MODULE(<%= lowerCamelCaseName %>, <%= iOSProjectName %>Module)
 WX_EXPORT_METHOD(@selector(show))
 
 /**
@@ -22,7 +22,7 @@ WX_EXPORT_METHOD(@selector(show))
  */
 -(void)show
 {
-    UIAlertView *alertview = [[UIAlertView alloc] initWithTitle:@"title" message:@"module <%= iOSProjectName %> is created sucessfully" delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:@"ok", nil];
+    UIAlertView *alertview = [[UIAlertView alloc] initWithTitle:@"title" message:@"module <%= lowerCamelCaseName %> is created sucessfully" delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:@"ok", nil];
     [alertview show];
     
 }
