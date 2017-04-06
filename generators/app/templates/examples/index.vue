@@ -13,7 +13,7 @@
 
 <script>
 
-	const plugin = weex.requireModule('<%= ExportProjectName %>');
+	const plugin = weex.requireModule('<%= CamelCaseName %>');
 	module.exports = {
 		data: {
 			value: '',
