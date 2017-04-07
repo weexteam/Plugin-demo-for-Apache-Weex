@@ -25,7 +25,7 @@ module.exports = Generator.extend({
 
     var projectName = this.options["projectName"];
 
-    if(!isValidPackageName(projectName)){
+    if(!projectName || !isValidPackageName(projectName)){
       throw Error(projectName+ ' is not a valid name for a project. Please use a valid identifier ' +
           'name (alphanumeric).')
 
@@ -87,6 +87,9 @@ module.exports = Generator.extend({
   },
 
   writing: function () {
+
+
+      this.destinationRoot(this.props.projectName)
       var tp = this.templatePath();
 
 
@@ -109,12 +112,12 @@ module.exports = Generator.extend({
         }
 
 
-        var destination = this.props.projectName + '/' + rep;
+
 
         if(!/\.(png|jpg|gif|jar|framework)/.test(file)){
           this.fs.copyTpl(
               tp + '/' + source,
-              this.destinationPath(destination),
+              this.destinationPath(rep),
               this.props
           );
         }
@@ -122,7 +125,7 @@ module.exports = Generator.extend({
 
           this.fs.copy(
               tp + '/' + source,
-              this.destinationPath(destination)
+              this.destinationPath(rep)
           );
         }
 
@@ -140,6 +143,6 @@ module.exports = Generator.extend({
     });
   },
   end: function(){
-    this.log("weex 插件工程已经创建完成")
+    // this.log("weex 插件工程已经创建完成")
   }
 });
