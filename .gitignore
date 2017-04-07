@@ -70,4 +70,5 @@ fastlane/screenshots
 iOSInjectionProject/
 
 
+.vscode
 /generators/app/templates/android/.idea/
