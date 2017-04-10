@@ -35,10 +35,9 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.alibaba.weex.R;
 import com.google.zxing.client.android.CaptureActivity;
 import com.google.zxing.client.android.Intents;
-
-import org.weex.demo.R;
 
 public final class HistoryActivity extends ListActivity {
 
@@ -47,11 +46,11 @@ public final class HistoryActivity extends ListActivity {
   private HistoryManager historyManager;
   private ArrayAdapter<HistoryItem> adapter;
   private CharSequence originalTitle;
-
+  
   @Override
   protected void onCreate(Bundle icicle) {
     super.onCreate(icicle);
-    this.historyManager = new HistoryManager(this);
+    this.historyManager = new HistoryManager(this);  
     adapter = new HistoryItemAdapter(this);
     setListAdapter(adapter);
     View listview = getListView();

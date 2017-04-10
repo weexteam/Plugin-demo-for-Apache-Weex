@@ -28,7 +28,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListAdapter;
 
-import org.weex.demo.R;
+import com.alibaba.weex.R;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -67,7 +67,7 @@ final class LoadPackagesAsyncTask extends AsyncTask<Object,Object,List<AppInfo>>
       String packageName = appInfo.packageName;
       if (!isHidden(packageName)) {
         CharSequence label = appInfo.loadLabel(packageManager);
-        Drawable icon = appInfo.loadIcon(packageManager);
+        Drawable icon = appInfo.loadIcon(packageManager);        
         if (label != null) {
           labelsPackages.add(new AppInfo(packageName, label.toString(), icon));
         }
@@ -95,10 +95,10 @@ final class LoadPackagesAsyncTask extends AsyncTask<Object,Object,List<AppInfo>>
   }
 
   @Override
-  protected void onPostExecute(final List<AppInfo> results) {
-    ListAdapter listAdapter = new ArrayAdapter<AppInfo>(activity,
+  protected void onPostExecute(final List<AppInfo> results) {    
+    ListAdapter listAdapter = new ArrayAdapter<AppInfo>(activity, 
                                                         R.layout.app_picker_list_item,
-                                                        R.id.app_picker_list_item_label,
+                                                        R.id.app_picker_list_item_label, 
                                                         results) {
       @Override
       public View getView(int position, View convertView, ViewGroup parent) {

@@ -50,7 +50,7 @@ public final class VINParsedResult extends ParsedResult {
     this.plantCode = plantCode;
     this.sequentialNumber = sequentialNumber;
   }
-
+  
   public String getVIN() {
     return vin;
   }

@@ -19,6 +19,7 @@ package com.google.zxing.client.android.result.supplement;
 import android.content.Context;
 import android.widget.TextView;
 
+import com.alibaba.weex.R;
 import com.google.zxing.client.android.HttpHelper;
 import com.google.zxing.client.android.LocaleManager;
 import com.google.zxing.client.android.history.HistoryManager;
@@ -27,7 +28,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
-import org.weex.demo.R;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -42,7 +42,7 @@ final class BookResultInfoRetriever extends SupplementalInfoRetriever {
   private final String isbn;
   private final String source;
   private final Context context;
-
+  
   BookResultInfoRetriever(TextView textView, String isbn, HistoryManager historyManager, Context context) {
     super(textView, historyManager);
     this.isbn = isbn;
@@ -96,7 +96,7 @@ final class BookResultInfoRetriever extends SupplementalInfoRetriever {
     maybeAddText(title, newTexts);
     maybeAddTextSeries(authors, newTexts);
     maybeAddText(pages == null || pages.isEmpty() ? null : pages + "pp.", newTexts);
-
+    
     String baseBookUri = "http://www.google." + LocaleManager.getBookSearchCountryTLD(context)
         + "/search?tbm=bks&source=zxing&q=";
 

@@ -19,10 +19,9 @@ package com.google.zxing.client.android.result;
 import android.app.Activity;
 import android.telephony.PhoneNumberUtils;
 
+import com.alibaba.weex.R;
 import com.google.zxing.client.result.ParsedResult;
 import com.google.zxing.client.result.TelParsedResult;
-
-import org.weex.demo.R;
 
 /**
  * Offers relevant actions for telephone numbers.

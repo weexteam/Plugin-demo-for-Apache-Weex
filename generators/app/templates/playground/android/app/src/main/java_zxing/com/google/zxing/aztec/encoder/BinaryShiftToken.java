@@ -19,10 +19,10 @@ package com.google.zxing.aztec.encoder;
 import com.google.zxing.common.BitArray;
 
 final class BinaryShiftToken extends Token {
-
+  
   private final short binaryShiftStart;
   private final short binaryShiftByteCount;
-
+  
   BinaryShiftToken(Token previous,
                    int binaryShiftStart,
                    int binaryShiftByteCount) {

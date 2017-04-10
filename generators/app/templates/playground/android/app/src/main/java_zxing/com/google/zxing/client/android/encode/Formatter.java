@@ -29,5 +29,5 @@ interface Formatter {
    * @return formatted value
    */
   CharSequence format(CharSequence value, int index);
-
+  
 }

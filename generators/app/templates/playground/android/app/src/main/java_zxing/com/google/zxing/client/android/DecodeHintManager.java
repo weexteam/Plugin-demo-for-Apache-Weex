@@ -32,7 +32,7 @@ import com.google.zxing.DecodeHintType;
  * @author Lachezar Dobrev
  */
 final class DecodeHintManager {
-
+  
   private static final String TAG = DecodeHintManager.class.getSimpleName();
 
   // This pattern is used in decoding integer arrays.
@@ -42,15 +42,15 @@ final class DecodeHintManager {
 
   /**
    * <p>Split a query string into a list of name-value pairs.</p>
-   *
+   * 
    * <p>This is an alternative to the {@link Uri#getQueryParameterNames()} and
    * {@link Uri#getQueryParameters(String)}, which are quirky and not suitable
    * for exist-only Uri parameters.</p>
-   *
+   * 
    * <p>This method ignores multiple parameters with the same name and returns the
    * first one only. This is technically incorrect, but should be acceptable due
    * to the method of processing Hints: no multiple values for a hint.</p>
-   *
+   * 
    * @param query query to split
    * @return name-value pairs
    */
@@ -159,8 +159,8 @@ final class DecodeHintManager {
         // An empty parameter is simply a flag-style parameter, assuming true
         if (parameterText.isEmpty()) {
           hints.put(hintType, Boolean.TRUE);
-        } else if ("0".equals(parameterText) ||
-                   "false".equalsIgnoreCase(parameterText) ||
+        } else if ("0".equals(parameterText) || 
+                   "false".equalsIgnoreCase(parameterText) || 
                    "no".equalsIgnoreCase(parameterText)) {
           hints.put(hintType, Boolean.FALSE);
         } else {
@@ -190,7 +190,7 @@ final class DecodeHintManager {
           hints.put(hintType, array);
         }
         continue;
-      }
+      } 
       Log.w(TAG, "Unsupported hint type '" + hintType + "' of type " + hintType.getValueType());
     }
 

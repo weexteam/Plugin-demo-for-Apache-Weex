@@ -27,6 +27,7 @@ import android.preference.PreferenceManager;
 import android.provider.ContactsContract;
 import android.util.Log;
 
+import com.alibaba.weex.R;
 import com.google.zxing.Result;
 import com.google.zxing.client.android.Contents;
 import com.google.zxing.client.android.Intents;
@@ -36,8 +37,6 @@ import com.google.zxing.client.android.book.SearchBookContentsActivity;
 import com.google.zxing.client.result.ParsedResult;
 import com.google.zxing.client.result.ParsedResultType;
 import com.google.zxing.client.result.ResultParser;
-
-import org.weex.demo.R;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
@@ -278,7 +277,7 @@ public abstract class ResultHandler {
       // Remove extra leading '\n'
       putExtra(intent, ContactsContract.Intents.Insert.NOTES, aggregatedNotes.substring(1));
     }
-
+    
     putExtra(intent, ContactsContract.Intents.Insert.IM_HANDLE, instantMessenger);
     putExtra(intent, ContactsContract.Intents.Insert.POSTAL, address);
     if (addressType != null) {
@@ -495,7 +494,7 @@ public abstract class ResultHandler {
     try {
       text = URLEncoder.encode(text, "UTF-8");
     } catch (UnsupportedEncodingException e) {
-      // can't happen; UTF-8 is always supported. Continue, I guess, without encoding
+      // can't happen; UTF-8 is always supported. Continue, I guess, without encoding      
     }
     String url = customProductSearch;
     if (rawResult != null) {

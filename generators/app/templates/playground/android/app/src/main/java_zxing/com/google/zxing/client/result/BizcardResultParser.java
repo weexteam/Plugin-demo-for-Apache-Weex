@@ -31,7 +31,7 @@ import com.google.zxing.Result;
 public final class BizcardResultParser extends AbstractDoCoMoResultParser {
 
   // Yes, we extend AbstractDoCoMoResultParser since the format is very much
-  // like the DoCoMo MECARD format, but this is not technically one of
+  // like the DoCoMo MECARD format, but this is not technically one of 
   // DoCoMo's proposed formats
 
   @Override

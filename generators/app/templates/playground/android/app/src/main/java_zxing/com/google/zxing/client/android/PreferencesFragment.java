@@ -25,7 +25,7 @@ import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 
-import org.weex.demo.R;
+import com.alibaba.weex.R;
 
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -33,17 +33,17 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 
-public final class PreferencesFragment
-    extends PreferenceFragment
+public final class PreferencesFragment 
+    extends PreferenceFragment 
     implements SharedPreferences.OnSharedPreferenceChangeListener {
 
   private CheckBoxPreference[] checkBoxPrefs;
-
+  
   @Override
   public void onCreate(Bundle icicle) {
     super.onCreate(icicle);
     addPreferencesFromResource(R.xml.preferences);
-
+    
     PreferenceScreen preferences = getPreferenceScreen();
     preferences.getSharedPreferences().registerOnSharedPreferenceChangeListener(this);
     checkBoxPrefs = findDecodePrefs(preferences,
@@ -67,7 +67,7 @@ public final class PreferencesFragment
     }
     return prefs;
   }
-
+  
   @Override
   public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
     disableLastCheckedPref();

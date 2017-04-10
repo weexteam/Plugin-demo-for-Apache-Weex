@@ -20,11 +20,10 @@ import android.content.Context;
 import android.text.Html;
 import android.widget.TextView;
 
+import com.alibaba.weex.R;
 import com.google.zxing.client.android.HttpHelper;
 import com.google.zxing.client.android.LocaleManager;
 import com.google.zxing.client.android.history.HistoryManager;
-
-import org.weex.demo.R;
 
 import java.io.IOException;
 import java.net.URLEncoder;

@@ -155,13 +155,13 @@ public abstract class SupplementalInfoRetriever extends AsyncTask<Object,Object,
     newContents.add(content);
     newHistories.add(new String[] {itemID, newText});
   }
-
+  
   static void maybeAddText(String text, Collection<String> texts) {
     if (text != null && !text.isEmpty()) {
       texts.add(text);
     }
   }
-
+  
   static void maybeAddTextSeries(Collection<String> textSeries, Collection<String> texts) {
     if (textSeries != null && !textSeries.isEmpty()) {
       boolean first = true;

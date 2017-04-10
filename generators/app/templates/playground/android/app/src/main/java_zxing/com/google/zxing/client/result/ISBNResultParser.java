@@ -21,7 +21,7 @@ import com.google.zxing.Result;
 
 /**
  * Parses strings of digits that represent a ISBN.
- *
+ * 
  * @author jbreiden@google.com (Jeff Breidenbach)
  */
 public final class ISBNResultParser extends ResultParser {
@@ -43,7 +43,7 @@ public final class ISBNResultParser extends ResultParser {
     if (!rawText.startsWith("978") && !rawText.startsWith("979")) {
       return null;
     }
-
+   
     return new ISBNParsedResult(rawText);
   }
 

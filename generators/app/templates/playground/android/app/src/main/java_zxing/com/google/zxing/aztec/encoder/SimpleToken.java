@@ -19,7 +19,7 @@ package com.google.zxing.aztec.encoder;
 import com.google.zxing.common.BitArray;
 
 final class SimpleToken extends Token {
-
+  
   // For normal words, indicates value and bitCount
   private final short value;
   private final short bitCount;

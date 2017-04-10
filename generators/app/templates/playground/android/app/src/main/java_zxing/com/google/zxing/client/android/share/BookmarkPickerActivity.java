@@ -63,7 +63,7 @@ public final class BookmarkPickerActivity extends ListActivity {
     }
     setListAdapter(new BookmarkAdapter(this, cursor));
   }
-
+  
   @Override
   protected void onPause() {
     if (cursor != null) {

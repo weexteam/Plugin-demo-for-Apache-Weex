@@ -91,7 +91,7 @@ public final class WhiteRectangleDetector {
     boolean sizeExceeded = false;
     boolean aBlackPointFoundOnBorder = true;
     boolean atLeastOneBlackPointFoundOnBorder = false;
-
+    
     boolean atLeastOneBlackPointFoundOnRight = false;
     boolean atLeastOneBlackPointFoundOnBottom = false;
     boolean atLeastOneBlackPointFoundOnLeft = false;

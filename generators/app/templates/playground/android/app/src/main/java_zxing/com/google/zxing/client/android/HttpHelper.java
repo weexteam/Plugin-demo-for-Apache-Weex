@@ -45,7 +45,7 @@ public final class HttpHelper {
 
   private HttpHelper() {
   }
-
+  
   public enum ContentType {
     /** HTML-like content type, including HTML, XHTML, etc. */
     HTML,
@@ -194,7 +194,7 @@ public final class HttpHelper {
       connection.disconnect();
     }
   }
-
+  
   private static HttpURLConnection safelyOpenConnection(URL url) throws IOException {
     URLConnection conn;
     try {

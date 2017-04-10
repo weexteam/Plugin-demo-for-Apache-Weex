@@ -68,7 +68,7 @@ public final class CameraManager {
     this.configManager = new CameraConfigurationManager(context);
     previewCallback = new PreviewCallback(configManager);
   }
-
+  
   /**
    * Opens the camera driver and initializes the hardware parameters.
    *
@@ -233,7 +233,7 @@ public final class CameraManager {
     }
     return framingRect;
   }
-
+  
   private static int findDesiredDimensionInRange(int resolution, int hardMin, int hardMax) {
     int dim = 5 * resolution / 8; // Target 5/8 of each dimension
     if (dim < hardMin) {
@@ -272,13 +272,13 @@ public final class CameraManager {
       rect.right = rect.right * cameraResolution.y / screenResolution.x;
       rect.top = rect.top * cameraResolution.x / screenResolution.y;
       rect.bottom = rect.bottom * cameraResolution.x / screenResolution.y;
-
+      
       framingRectInPreview = rect;
     }
     return framingRectInPreview;
   }
 
-
+  
   /**
    * Allows third party apps to specify the camera ID, rather than determine
    * it automatically based on available cameras and their orientation.
@@ -288,7 +288,7 @@ public final class CameraManager {
   public synchronized void setManualCameraId(int cameraId) {
     requestedCameraId = cameraId;
   }
-
+  
   /**
    * Allows third party apps to specify the scanning rectangle dimensions, rather than determine
    * them automatically based on screen resolution.

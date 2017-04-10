@@ -162,7 +162,7 @@ public final class RSSExpandedReader extends AbstractRSSReader {
     if (checkChecksum()) {
       return this.pairs;
     }
-
+    
     boolean tryStackedDecode = !this.rows.isEmpty();
     boolean wasReversed = false; // TODO: deal with reversed rows
     storeRow(rowNumber, wasReversed);
@@ -178,7 +178,7 @@ public final class RSSExpandedReader extends AbstractRSSReader {
         return ps;
       }
     }
-
+    
     throw NotFoundException.getNotFoundInstance();
   }
 
@@ -300,7 +300,7 @@ public final class RSSExpandedReader extends AbstractRSSReader {
     removePartialRows(this.pairs, this.rows);
   }
 
-  // Remove all the rows that contains only specified pairs
+  // Remove all the rows that contains only specified pairs 
   private static void removePartialRows(List<ExpandedPair> pairs, List<ExpandedRow> rows) {
     for (Iterator<ExpandedRow> iterator = rows.iterator(); iterator.hasNext();) {
       ExpandedRow r = iterator.next();
@@ -444,11 +444,11 @@ public final class RSSExpandedReader extends AbstractRSSReader {
     // boolean mayBeLast = checkPairSequence(previousPairs, pattern);
 
     DataCharacter leftChar  = this.decodeDataCharacter(row, pattern, isOddPattern, true);
-
+    
     if (!previousPairs.isEmpty() && previousPairs.get(previousPairs.size()-1).mustBeLast()) {
       throw NotFoundException.getNotFoundInstance();
     }
-
+    
     DataCharacter rightChar;
     try {
       rightChar = this.decodeDataCharacter(row, pattern, isOddPattern, false);

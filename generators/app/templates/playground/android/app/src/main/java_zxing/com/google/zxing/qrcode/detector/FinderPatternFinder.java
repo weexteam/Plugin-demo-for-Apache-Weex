@@ -232,7 +232,7 @@ public class FinderPatternFinder {
    * After a vertical and horizontal scan finds a potential finder pattern, this method
    * "cross-cross-cross-checks" by scanning down diagonally through the center of the possible
    * finder pattern to see if the same proportion is detected.
-   *
+   * 
    * @param startI row where a finder pattern was detected
    * @param centerJ center of the section that appears to cross a finder pattern
    * @param maxCount maximum reasonable number of modules that should be

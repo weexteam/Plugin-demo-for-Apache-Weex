@@ -19,11 +19,10 @@ package com.google.zxing.client.android.result.supplement;
 import android.content.Context;
 import android.widget.TextView;
 
+import com.alibaba.weex.R;
 import com.google.zxing.client.android.HttpHelper;
 import com.google.zxing.client.android.history.HistoryManager;
 import com.google.zxing.client.result.URIParsedResult;
-
-import org.weex.demo.R;
 
 import java.io.IOException;
 import java.net.URI;
@@ -53,9 +52,9 @@ final class URIResultInfoRetriever extends SupplementalInfoRetriever {
     URI newURI = HttpHelper.unredirect(oldURI);
     int count = 0;
     while (count++ < MAX_REDIRECTS && !oldURI.equals(newURI)) {
-      append(result.getDisplayResult(),
-             null,
-             new String[] { redirectString + " : " + newURI },
+      append(result.getDisplayResult(), 
+             null, 
+             new String[] { redirectString + " : " + newURI }, 
              newURI.toString());
       oldURI = newURI;
       newURI = HttpHelper.unredirect(newURI);

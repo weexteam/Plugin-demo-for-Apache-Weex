@@ -19,12 +19,12 @@ package com.google.zxing.client.android.camera.open;
 import android.hardware.Camera;
 
 public final class OpenCamera {
-
+  
   private final int index;
   private final Camera camera;
   private final CameraFacing facing;
   private final int orientation;
-
+  
   public OpenCamera(int index, Camera camera, CameraFacing facing, int orientation) {
     this.index = index;
     this.camera = camera;

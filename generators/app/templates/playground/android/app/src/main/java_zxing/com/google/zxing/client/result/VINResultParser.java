@@ -69,7 +69,7 @@ public final class VINResultParser extends ResultParser {
     char expectedCheckChar = checkChar(sum % 11);
     return checkChar == expectedCheckChar;
   }
-
+  
   private static int vinCharValue(char c) {
     if (c >= 'A' && c <= 'I') {
       return (c - 'A') + 1;
@@ -85,7 +85,7 @@ public final class VINResultParser extends ResultParser {
     }
     throw new IllegalArgumentException();
   }
-
+  
   private static int vinPositionWeight(int position) {
     if (position >= 1 && position <= 7) {
       return 9 - position;
@@ -111,7 +111,7 @@ public final class VINResultParser extends ResultParser {
     }
     throw new IllegalArgumentException();
   }
-
+  
   private static int modelYear(char c) {
     if (c >= 'E' && c <= 'H') {
       return (c - 'E') + 1984;

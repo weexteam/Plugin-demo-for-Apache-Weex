@@ -93,5 +93,5 @@ public enum ResultMetadataType {
    * parity is given with it.
    */
   STRUCTURED_APPEND_PARITY,
-
+  
 }

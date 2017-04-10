@@ -59,7 +59,7 @@ public final class RGBLuminanceSource extends LuminanceSource {
       }
     }
   }
-
+  
   private RGBLuminanceSource(byte[] pixels,
                              int dataWidth,
                              int dataHeight,
@@ -122,7 +122,7 @@ public final class RGBLuminanceSource extends LuminanceSource {
     }
     return matrix;
   }
-
+  
   @Override
   public boolean isCropSupported() {
     return true;

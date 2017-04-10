@@ -53,7 +53,7 @@ public final class UPCEWriter extends UPCEANWriter {
       throw new IllegalArgumentException(
         "Requested contents should be 8 digits long, but got " + contents.length());
     }
-
+      
     int checkDigit = Integer.parseInt(contents.substring(7, 8));
     int parities = UPCEReader.CHECK_DIGIT_ENCODINGS[checkDigit];
     boolean[] result = new boolean[CODE_WIDTH];
@@ -73,5 +73,5 @@ public final class UPCEWriter extends UPCEANWriter {
 
     return result;
   }
-
+  
 }

@@ -16,6 +16,19 @@
 
 package com.google.zxing.client.android;
 
+import com.google.zxing.BarcodeFormat;
+import com.google.zxing.DecodeHintType;
+import com.google.zxing.Result;
+import com.google.zxing.ResultMetadataType;
+import com.google.zxing.ResultPoint;
+import com.google.zxing.client.android.camera.CameraManager;
+import com.google.zxing.client.android.clipboard.ClipboardInterface;
+import com.google.zxing.client.android.history.HistoryActivity;
+import com.google.zxing.client.android.history.HistoryItem;
+import com.google.zxing.client.android.history.HistoryManager;
+import com.google.zxing.client.android.result.ResultHandler;
+import com.google.zxing.client.android.result.ResultHandlerFactory;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
@@ -45,23 +58,10 @@ import android.view.WindowManager;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.zxing.BarcodeFormat;
-import com.google.zxing.DecodeHintType;
-import com.google.zxing.Result;
-import com.google.zxing.ResultMetadataType;
-import com.google.zxing.ResultPoint;
-import com.google.zxing.client.android.camera.CameraManager;
-import com.google.zxing.client.android.clipboard.ClipboardInterface;
-import com.google.zxing.client.android.history.HistoryActivity;
-import com.google.zxing.client.android.history.HistoryItem;
-import com.google.zxing.client.android.history.HistoryManager;
-import com.google.zxing.client.android.result.ResultHandler;
-import com.google.zxing.client.android.result.ResultHandlerFactory;
+import com.alibaba.weex.R;
+import com.alibaba.weex.WXPageActivity;
 import com.taobao.weex.WXEnvironment;
 import com.taobao.weex.WXSDKEngine;
-
-import org.weex.demo.R;
-import org.weex.demo.WXPageActivity;
 
 import java.io.IOException;
 import java.util.Collection;
@@ -74,7 +74,7 @@ import java.util.Map;
  * thread. It draws a viewfinder to help the user place the barcode correctly,
  * shows feedback as the image processing is happening, and then overlays the
  * results when a scan is successful.
- *
+ * 
  * @author dswitkin@google.com (Daniel Switkin)
  * @author Sean Owen
  */
@@ -143,7 +143,7 @@ public final class CaptureActivity extends Activity implements
 		ambientLightManager = new AmbientLightManager(this);
 
 		PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
-
+		
 		if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         } else {
@@ -464,7 +464,7 @@ public final class CaptureActivity extends Activity implements
 	/**
 	 * A valid barcode has been found, so give an indication of success and show
 	 * the results.
-	 *
+	 * 
 	 * @param rawResult
 	 *            The contents of the barcode.
 	 * @param scaleFactor
@@ -525,7 +525,7 @@ public final class CaptureActivity extends Activity implements
 	/**
 	 * Superimpose a line for 1D or dots for 2D to highlight the key features of
 	 * the barcode.
-	 *
+	 * 
 	 * @param barcode
 	 *            A bitmap of the captured image.
 	 * @param scaleFactor

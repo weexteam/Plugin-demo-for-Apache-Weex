@@ -56,7 +56,7 @@ public final class AppPickerActivity extends ListActivity {
       intent.putExtra("url", "market://details?id=" + packageName);
       setResult(RESULT_OK, intent);
     } else {
-      setResult(RESULT_CANCELED);
+      setResult(RESULT_CANCELED);      
     }
     finish();
   }

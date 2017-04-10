@@ -139,7 +139,7 @@ public final class AddressBookParsedResult extends ParsedResult {
   public String[] getEmailTypes() {
     return emailTypes;
   }
-
+  
   public String getInstantMessenger() {
     return instantMessenger;
   }

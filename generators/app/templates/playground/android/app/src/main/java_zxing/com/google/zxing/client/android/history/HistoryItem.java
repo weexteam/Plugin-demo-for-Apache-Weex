@@ -23,7 +23,7 @@ public final class HistoryItem {
   private final Result result;
   private final String display;
   private final String details;
-
+  
   HistoryItem(Result result, String display, String details) {
     this.result = result;
     this.display = display;
@@ -46,5 +46,5 @@ public final class HistoryItem {
     }
     return displayResult.toString();
   }
-
+  
 }

@@ -22,7 +22,7 @@ import android.content.Context;
 import android.util.Log;
 
 public final class ClipboardInterface {
-
+  
   private static final String TAG = ClipboardInterface.class.getSimpleName();
 
   private ClipboardInterface() {
@@ -50,7 +50,7 @@ public final class ClipboardInterface {
     ClipData clip = clipboard.getPrimaryClip();
     return clip != null && clip.getItemCount() > 0;
   }
-
+  
   private static ClipboardManager getManager(Context context) {
     return (ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);
   }
