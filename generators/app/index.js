@@ -12,6 +12,7 @@ module.exports = Generator.extend({
 
   initializing: function(){
     this.argument('projectName', { type: String, required: true });
+    this.option('weexpack');
 
   },
 
@@ -88,49 +89,48 @@ module.exports = Generator.extend({
 
   writing: function () {
 
-
+    if(!this.options.weexpack){
       this.destinationRoot(this.props.projectName)
-      var tp = this.templatePath();
+    }
 
-
+    var tp = this.templatePath();
 
     var files = glob.sync(tp + '/**', {nodir: true});
+    
+    files.forEach(function (file) {
+      var source = file.slice(tp.length + 1);
+
+      var rep = source.replace(/iOSProjectName/g, this.props.iOSProjectName)
+          .replace(/AndroidProjectName/g, this.props.AndroidProjectName)
+          .replace(/ExportProjectName/g, this.props.ExportProjectName)
+
+      if(/^_/ig.test(rep)){
+        rep = rep.replace(/^_/ig, "")
+      }
+
+      var destPath = this.destinationPath(this.props.projectName+"/"+rep)
+
+      if(!this.options.weexpack){
+        destPath = this.destinationPath(rep)
+      }
+
+      if(!/\.(png|jpg|gif|jar|framework)/.test(file)){
+        this.fs.copyTpl(
+            tp + '/' + source,
+            destPath,
+            this.props
+        );
+      }
+      else{
+
+        this.fs.copy(
+            tp + '/' + source,
+            destPath
+        );
+      }
 
 
-
-      files.forEach(function (file) {
-        var source = file.slice(tp.length + 1);
-
-
-
-        var rep = source.replace(/iOSProjectName/g, this.props.iOSProjectName)
-            .replace(/AndroidProjectName/g, this.props.AndroidProjectName)
-            .replace(/ExportProjectName/g, this.props.ExportProjectName)
-
-        if(/^_/ig.test(rep)){
-          rep = rep.replace(/^_/ig, "")
-        }
-
-
-
-
-        if(!/\.(png|jpg|gif|jar|framework)/.test(file)){
-          this.fs.copyTpl(
-              tp + '/' + source,
-              this.destinationPath(rep),
-              this.props
-          );
-        }
-        else{
-
-          this.fs.copy(
-              tp + '/' + source,
-              this.destinationPath(rep)
-          );
-        }
-
-
-      }, this);
+    }, this);
 
   },
 

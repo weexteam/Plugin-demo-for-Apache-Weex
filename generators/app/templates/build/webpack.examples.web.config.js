@@ -72,7 +72,7 @@ module.exports = {
         loader: 'weex'
       },
       {
-        test: /\.js$/,
+        test: /\.(js)(\?[^?]+)?$/,
         loaders: ['babel-loader'],
         exclude: /node_modules/
       }, {
