@@ -7,9 +7,9 @@
 # 功能
 
 # 快速使用
-- 通过weexpack初始化一个<%= projectName %>工程
+- 通过weexpack初始化一个weex工程
    ```
-   weex create dev <%= projectName %>
+   weex create weex-demo
    ```
 - 添加插件
   ```

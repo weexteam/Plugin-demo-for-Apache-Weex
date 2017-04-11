@@ -10,7 +10,7 @@
      "//":"安装类型为pod",
      "type":"pod",
      "name":"<%=  iOSProjectName %>",
-     "version:":"0.0.1"
+     "version":"0.0.1"
    },
   "//":"android工程安装配置",
   "android":{
@@ -18,7 +18,7 @@
     "type":"maven",
     "groupId":"org.weex.plugin",
     "name":"<%=  AndroidProjectName %>",
-    "version:":"0.0.1"
+    "version":"0.0.1"
   },
   "keywords": [
     "weex",
