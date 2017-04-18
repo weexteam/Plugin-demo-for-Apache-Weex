@@ -7,20 +7,30 @@
 # 功能
 
 # 快速使用
-- 通过weexpack初始化一个<%= projectName %>工程
+- 通过weexpack初始化一个测试工程 weextest
    ```
-   weex create dev <%= projectName %>
+   weexpack create weextest
    ```
+- 添加ios平台
+  ```
+  weexpack platform add ios
+  ```
+- 添加android平台
+  ```
+  weexpack platform add android
+  ```
 - 添加插件
   ```
-  weex plugin add <%= projectName %>
+  weexpack plugin add <%= projectName %>
   ```
+# 项目地址
+[github](please add you source code address)
 
 # 已有工程集成
 ## iOS集成插件<%= iOSProjectName %>
 - 命令行集成
   ```
-  weex plugin add <%= projectName %>
+  weexpack plugin add <%= projectName %>
   ```
 - 手动集成
   在podfile 中添加
@@ -31,7 +41,7 @@
 ## 安卓集成插件<%= AndroidProjectName %>
 - 命令行集成
   ```
-  weex plugin add <%= projectName %>
+  weexpack plugin add <%= projectName %>
   ```
 - 手动集成
   在相应工程的build.gradle文件的dependencies中添加
