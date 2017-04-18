@@ -19,10 +19,6 @@
   ```
   weexpack platform add android
   ```
-- 添加web平台
-  ```
-  weexpack platform add web
-  ```
 - 添加插件
   ```
   weexpack plugin add <%= projectName %>
