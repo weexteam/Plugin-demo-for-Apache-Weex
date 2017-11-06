@@ -1,7 +1,6 @@
 # <%= projectName %>
 <%= projectName %>是一个weex插件，可以通过weexpack快速集成，可以丰富weex功能
 
-支持的weexpack版本： >= 0.2.0
 支持的WeexSDK版本： >= <%= WeexSDKVersion %>
 
 # 功能
@@ -9,19 +8,19 @@
 # 快速使用
 - 通过weexpack初始化一个测试工程 weextest
    ```
-   weexpack create weextest
+   weex create weextest
    ```
 - 添加ios平台
   ```
-  weexpack platform add ios
+  weex platform add ios
   ```
 - 添加android平台
   ```
-  weexpack platform add android
+  weex platform add android
   ```
 - 添加插件
   ```
-  weexpack plugin add <%= projectName %>
+  weex plugin add <%= projectName %>
   ```
 # 项目地址
 [github](please add you source code address)
@@ -30,7 +29,7 @@
 ## iOS集成插件<%= iOSProjectName %>
 - 命令行集成
   ```
-  weexpack plugin add <%= projectName %>
+  weex plugin add <%= projectName %>
   ```
 - 手动集成
   在podfile 中添加

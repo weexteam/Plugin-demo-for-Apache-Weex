@@ -13,7 +13,6 @@ module.exports = Generator.extend({
   initializing: function(){
     this.argument('projectName', { type: String, required: true });
     this.option('weexpack');
-
   },
 
   prompting: function () {
@@ -69,10 +68,9 @@ module.exports = Generator.extend({
         type: 'input',
         name: 'WeexSDKVersion',
         message: 'please confirm WeexSDK version',
-        default: '0.10.0'
+        default: '0.16.0'
       }
       ];
-
     return this.prompt(prompts).then(function (props) {
       // To access props later use this.props.someAnswer;
       this.props = props;
@@ -80,10 +78,6 @@ module.exports = Generator.extend({
       this.props.ExportProjectName = iOSProjectName;
       this.props.upperCamelCaseName = upperCamelCaseName;
       this.props.lowerCamelCaseName = lowerCamelCaseName;
-      //
-
-
-
     }.bind(this));
   },
 
@@ -103,6 +97,7 @@ module.exports = Generator.extend({
       var rep = source.replace(/iOSProjectName/g, this.props.iOSProjectName)
           .replace(/AndroidProjectName/g, this.props.AndroidProjectName)
           .replace(/ExportProjectName/g, this.props.ExportProjectName)
+          .replace(/upperCamelCaseName/g, this.props.upperCamelCaseName)
 
       if(/^_/ig.test(rep)){
         rep = rep.replace(/^_/ig, "")
