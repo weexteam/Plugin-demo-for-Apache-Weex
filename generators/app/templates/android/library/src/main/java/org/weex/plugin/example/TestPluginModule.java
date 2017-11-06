@@ -5,6 +5,10 @@ import com.taobao.weex.annotation.JSMethod;
 import com.taobao.weex.bridge.JSCallback;
 import com.taobao.weex.common.WXModule;
 
+/**
+ * TODO: Auto-generated module example
+ */
+
 @WeexModule(name = "testPlugin")
 public class TestPluginModule extends WXModule {
     @JSMethod

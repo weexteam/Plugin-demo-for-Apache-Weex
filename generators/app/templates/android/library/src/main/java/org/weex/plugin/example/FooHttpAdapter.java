@@ -1,5 +1,8 @@
 package org.weex.plugin.example;
 
+/**
+ * TODO: Auto-generated adapter example
+ */
 
 import com.alibaba.weex.plugin.annotation.WeexAdapter;
 import com.taobao.weex.adapter.IWXHttpAdapter;
