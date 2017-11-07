@@ -4,7 +4,7 @@
 ## iOS
 
 ### 如何开发插件
-- 通过weexpack初始化一个<%= iOSProjectName %>工程
+- 通过weex初始化一个<%= iOSProjectName %>工程
    ```
    weex create dev <%= iOSProjectName %>
    ```

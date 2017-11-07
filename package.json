@@ -1,6 +1,6 @@
 {
   "name": "generator-weex-plugin",
-  "version": "0.1.29",
+  "version": "0.1.32",
   "description": "",
   "homepage": "",
   "files": [
@@ -38,8 +38,6 @@
     }
   },
   "repository": "https://github.com/weexteam/weex-plugin-template.git",
-  "scripts": {
-
-  },
+  "scripts": {},
   "license": "Apache-2.0"
 }
