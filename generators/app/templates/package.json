@@ -16,6 +16,9 @@
     "groupId":"org.weex.plugin", //组名
     "name":"<%=  AndroidProjectName %>" //包名
   },
+  "web": {
+    "name": "<%= projectName %>"
+  },
   "keywords": [
     "weex",
     "hybrid",
