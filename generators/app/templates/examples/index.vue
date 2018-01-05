@@ -23,7 +23,6 @@
 		methods: {
 			createAction: function() {
 				plugin.show();
-
 			}
 		}
 	}
