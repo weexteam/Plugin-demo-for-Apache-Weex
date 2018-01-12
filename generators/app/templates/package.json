@@ -36,6 +36,7 @@
     "node": ">=4"
   },
   "scripts": {
+    "start": "npm run build:examples:web && npm run serve",
     "dev": "webpack --watch --config build/webpack.config.js",
     "build": "webpack --config build/webpack.config.js",
     "start:web": "npm run build && npm run serve & npm run dev:examples:web",
