@@ -4,7 +4,6 @@
   "main": "./src/index.js",
   "description": "<%= projectName %> extend for weex",
   "license": "Apache-2.0",
-  "WeexSDKVersoin": "<%= WeexSDKVersion %>",
   "ios": {
     "type": "pod",
     "name": "<%=  iOSProjectName %>",

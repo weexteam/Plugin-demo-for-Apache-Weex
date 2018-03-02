@@ -1,8 +1,8 @@
 'use strict';
-var Generator = require('yeoman-generator');
-var chalk = require('chalk');
-var yosay = require('yosay');
-var glob = require('glob')
+const Generator = require('yeoman-generator');
+const chalk = require('chalk');
+const yosay = require('yosay');
+const glob = require('glob')
 
 function isValidPackageName(name) {
   return name.match(/^[$A-Z]([0-9A-Z]|-)*$/i);
@@ -23,19 +23,18 @@ module.exports = Generator.extend({
 
 
 
-    var projectName = this.options["projectName"];
+    let projectName = this.options["projectName"];
 
     if(!projectName || !isValidPackageName(projectName)){
       throw Error(projectName+ ' is not a valid name for a project. Please use a valid identifier ' +
           'name (alphanumeric).')
 
     }
-
-    var iOSProjectName = projectName
-    var AndroidProjectName = projectName
-    var ExportProjectName = projectName
-    var lowerCamelCaseName = projectName;
-    var upperCamelCaseName = projectName
+    let iOSProjectName = projectName
+    let AndroidProjectName = projectName
+    let ExportProjectName = projectName
+    let lowerCamelCaseName = projectName;
+    let upperCamelCaseName = projectName
 
     if(/-/ig.test(projectName)){
 
@@ -48,29 +47,23 @@ module.exports = Generator.extend({
     }
 
 
-    upperCamelCaseName = lowerCamelCaseName.charAt(0).toUpperCase() + lowerCamelCaseName.slice(1);
+    upperCamelCaseName = lowerCamelCaseName.charAt(0).toUpperCase() + ExportProjectName.slice(1);
 
     iOSProjectName = upperCamelCaseName;
 
-    var prompts = [{
-      type: 'input',
-      name: 'iOSProjectName',
-      message: 'please confirm iOS Project Name',
-      default: iOSProjectName
-    },
+    const prompts = [{
+        type: 'input',
+        name: 'iOSProjectName',
+        message: 'please confirm iOS Project Name',
+        default: iOSProjectName
+      },
       {
         type: 'input',
         name: 'AndroidProjectName',
         message: 'please confirm Android Project Name',
         default: AndroidProjectName
-      },
-      {
-        type: 'input',
-        name: 'WeexSDKVersion',
-        message: 'please confirm WeexSDK version',
-        default: '0.16.0'
       }
-      ];
+    ];
     return this.prompt(prompts).then(function (props) {
       // To access props later use this.props.someAnswer;
       this.props = props;
@@ -87,14 +80,14 @@ module.exports = Generator.extend({
       this.destinationRoot(this.props.projectName)
     }
 
-    var tp = this.templatePath();
+    const tp = this.templatePath();
 
-    var files = glob.sync(tp + '/**', {nodir: true});
+    const files = glob.sync(tp + '/**', {nodir: true});
     
     files.forEach(function (file) {
-      var source = file.slice(tp.length + 1);
+      const source = file.slice(tp.length + 1);
 
-      var rep = source.replace(/iOSProjectName/g, this.props.iOSProjectName)
+      let rep = source.replace(/iOSProjectName/g, this.props.iOSProjectName)
           .replace(/AndroidProjectName/g, this.props.AndroidProjectName)
           .replace(/ExportProjectName/g, this.props.ExportProjectName)
           .replace(/upperCamelCaseName/g, this.props.upperCamelCaseName)
@@ -103,7 +96,7 @@ module.exports = Generator.extend({
         rep = rep.replace(/^_/ig, "")
       }
 
-      var destPath = this.destinationPath(this.props.projectName+"/"+rep)
+      const destPath = this.destinationPath(this.props.projectName+"/"+rep)
 
       if(!this.options.weexpack){
         destPath = this.destinationPath(rep)
@@ -133,8 +126,7 @@ module.exports = Generator.extend({
     // this.spawnCommand('npm', ['install']);
     this.installDependencies({
       npm: true,
-      bower: false,
-      yarn: false
+      yarn: true
     });
   },
   end: function(){
